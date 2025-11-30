@@ -1,16 +1,16 @@
 [
     {
-        "name": "ZYLL",
+        "name": "测试",
         "branch": "develop", 
-        "game_info": "http://xcpds.tbit.xin/xcpd/",
+        "game_info": "https://github.com/",
         "is_test_mod": true,
-        "server_host": "xcpds.tbit.xin/xcpd/"
+        "server_host": "https://github.com/"
     },
     {
-        "name": "ZYLL2",
+        "name": "测试服务器",
         "branch": "develop", 
-        "game_info": "http://xcpds.tbit.xin/xcpd/",
+        "game_info": "https://github.com/",
         "is_test_mod": true,
-        "server_host": "xcpds.tbit.xin/xcpd/"
+        "server_host": "https://github.com/"
     }
 ]
