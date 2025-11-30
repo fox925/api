@@ -1,16 +1,3453 @@
 [
-    {
-        "name": "GitHub托管服务器",
-        "branch": "develop", 
-        "game_info": "https://fox925.github.io/api/",
-        "is_test_mod": true,
-        "server_host": "https://fox925.github.io/api/"
-    },
-    {
-        "name": "亚洲服务器",
-        "branch": "develop", 
-        "game_info": "https://fox925.github.io/api/",
-        "is_test_mod": true,
-        "server_host": "https://fox925.github.io/api/"
-    }
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "develop",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/",
+                "server_host": "s1.biubiubiu.io"
+        },
+        {
+                "branch": "release/v50/0.50.1-1671",
+                "is_test_mod": true,
+                "name": "release",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/first_test/",
+                "server_host": "s3.biubiubiu.io"
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "PC审核服",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/win-shenhe/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "外网测试服务器",
+                "game_info": "http://game-info.for-test.sausage.xd.com:81/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "比赛服",
+                "game_info": "http://47.116.40.85:10081/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "PC外网测试服",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/pc-test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "正式服审核服",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/shenhe/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服正式服",
+                "game_info": "https://res-master.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服先行服",
+                "game_info": "https://res-master.sausage.xd.com/first_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服正式服(内网)",
+                "game_info": "https://lan-res-master.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服先行服(内网)",
+                "game_info": "https://lan-res-master.sausage.xd.com/first_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服先行服(rtc测试)",
+                "game_info": "https://wan-res-master.sausage.xd.com/rtc_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服正式服(外网)",
+                "game_info": "https://wan-res-master.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "国服先行服(外网)",
+                "game_info": "https://wan-res-master.sausage.xd.com/first_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "feature/v47/newhelmet",
+                "is_test_mod": true,
+                "name": "autotest1",
+                "game_info": "http://172.16.12.130:80/",
+                "server_host": "172.16.12.130"
+        },
+        {
+                "branch": "release/v46/0.46.6-1536",
+                "is_test_mod": true,
+                "name": "autotest2",
+                "game_info": "http://172.16.12.213:80/",
+                "server_host": "172.16.12.213"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "autotest3",
+                "game_info": "http://172.16.12.106:80/",
+                "server_host": "172.16.12.106"
+        },
+        {
+                "branch": "release/v38/0.38.1-1161",
+                "is_test_mod": true,
+                "name": "autotest4",
+                "game_info": "http://172.16.12.212:80/",
+                "server_host": "172.16.12.212"
+        },
+        {
+                "branch": "feature/v35/global-sdk",
+                "is_test_mod": true,
+                "name": "autotest5",
+                "game_info": "http://172.16.12.222:80/",
+                "server_host": "172.16.12.222"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "autotest6",
+                "game_info": "http://172.16.12.88:80/",
+                "server_host": "172.16.12.88"
+        },
+        {
+                "branch": "release/v34/0.34.5-1045-global",
+                "is_test_mod": true,
+                "name": "chenjianfeng",
+                "game_info": "",
+                "server_host": "172.16.12.146"
+        },
+        {
+                "branch": "release/v34/0.34.5-1045-global",
+                "is_test_mod": true,
+                "name": "大老虎吃小白菜",
+                "game_info": "http://172.16.12.246:80/",
+                "server_host": "172.16.12.246"
+        },
+        {
+                "branch": "release/v33/0.33.7-1027",
+                "is_test_mod": true,
+                "name": "crs_test_2",
+                "game_info": "",
+                "server_host": "172.16.12.177"
+        },
+        {
+                "branch": "feature/v41/unlock-activity",
+                "is_test_mod": true,
+                "name": "dailinhong",
+                "game_info": "http://172.16.12.244:80/",
+                "server_host": "172.16.12.244"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "dailinhong_1",
+                "game_info": "",
+                "server_host": "172.16.12.171"
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "feature-v44-tavor",
+                "game_info": "http://172.16.16.233:80/",
+                "server_host": "feature-v44-tavor"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature1",
+                "game_info": "http://172.16.12.145:80/",
+                "server_host": "feature1.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.6-1536",
+                "is_test_mod": true,
+                "name": "feature10",
+                "game_info": "http://172.16.12.233:80/",
+                "server_host": "feature10.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v46/eid-al-fitr",
+                "is_test_mod": true,
+                "name": "feature11",
+                "game_info": "http://172.16.12.156:80/",
+                "server_host": "feature11.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/hoverboard",
+                "is_test_mod": true,
+                "name": "feature12",
+                "game_info": "http://172.16.12.249:80/",
+                "server_host": "feature12.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/anniversary-activity-barrage",
+                "is_test_mod": true,
+                "name": "feature13",
+                "game_info": "http://172.16.12.166:80/",
+                "server_host": "feature13.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "hotfix/release/v46/file-verify",
+                "is_test_mod": true,
+                "name": "feature14",
+                "game_info": "http://172.16.12.151:80/",
+                "server_host": "feature14.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.7-1537",
+                "is_test_mod": true,
+                "name": "feature15",
+                "game_info": "http://172.16.12.228:80/",
+                "server_host": "feature15.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/global-game-selection",
+                "is_test_mod": true,
+                "name": "feature16",
+                "game_info": "http://172.16.12.62:80/",
+                "server_host": "feature16.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v39/pc-audit",
+                "is_test_mod": true,
+                "name": "feature17",
+                "game_info": "http://172.16.12.22:80/",
+                "server_host": "feature17.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v48/mode-pve",
+                "is_test_mod": true,
+                "name": "feature18",
+                "game_info": "http://172.16.12.65:80/",
+                "server_host": "feature18.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.7-1537-pc",
+                "is_test_mod": true,
+                "name": "feature19",
+                "game_info": "http://172.16.12.239:80/",
+                "server_host": "feature19.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/changlong",
+                "is_test_mod": true,
+                "name": "feature2",
+                "game_info": "http://172.16.12.60:80/",
+                "server_host": "feature2.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/rainbow-magic",
+                "is_test_mod": true,
+                "name": "feature20",
+                "game_info": "http://172.16.12.163:80/",
+                "server_host": "feature20.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/pc-online",
+                "is_test_mod": true,
+                "name": "feature21",
+                "game_info": "http://172.16.12.66:80/",
+                "server_host": "feature21.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/friend",
+                "is_test_mod": true,
+                "name": "feature22",
+                "game_info": "http://172.16.12.133:80/",
+                "server_host": "feature22.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.6-1536",
+                "is_test_mod": true,
+                "name": "feature23",
+                "game_info": "http://172.16.12.204:80/",
+                "server_host": "feature23.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/pc-simulator",
+                "is_test_mod": true,
+                "name": "feature24",
+                "game_info": "http://172.16.12.68:80/",
+                "server_host": "feature24.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/dragon-boat-festival",
+                "is_test_mod": true,
+                "name": "feature25",
+                "game_info": "http://172.16.12.31:80/",
+                "server_host": "feature25.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/limited-time-prop",
+                "is_test_mod": true,
+                "name": "feature26",
+                "game_info": "http://172.16.12.127:80/",
+                "server_host": "feature26.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v45/dolby-lobby-sound",
+                "is_test_mod": true,
+                "name": "feature27",
+                "game_info": "http://172.16.12.129:80/",
+                "server_host": "feature27.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/ai-find-opimize",
+                "is_test_mod": true,
+                "name": "feature28",
+                "game_info": "http://172.16.12.123:80/",
+                "server_host": "feature28.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/hiddenweapon",
+                "is_test_mod": true,
+                "name": "feature29",
+                "game_info": "http://172.16.12.61:80/",
+                "server_host": "feature29.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature3",
+                "game_info": "http://172.16.12.193:80/",
+                "server_host": "feature3.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/war-report",
+                "is_test_mod": true,
+                "name": "feature30",
+                "game_info": "http://172.16.12.30:80/",
+                "server_host": "feature30.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/skin-effect-switch",
+                "is_test_mod": true,
+                "name": "feature31",
+                "game_info": "http://172.16.12.167:80/",
+                "server_host": "feature31.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/rainbow-magic",
+                "is_test_mod": true,
+                "name": "feature32",
+                "game_info": "http://172.16.12.34:80/",
+                "server_host": "feature32.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/update-rate",
+                "is_test_mod": true,
+                "name": "feature33",
+                "game_info": "http://172.16.12.39:80/",
+                "server_host": "feature33.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/voice-pack-load-opitimize",
+                "is_test_mod": true,
+                "name": "feature34",
+                "game_info": "http://172.16.12.205:80/",
+                "server_host": "feature34.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/toutiao-fenbao",
+                "is_test_mod": true,
+                "name": "feature35",
+                "game_info": "http://172.16.12.197:80/",
+                "server_host": "feature35.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v46/new-pack",
+                "is_test_mod": true,
+                "name": "feature36",
+                "game_info": "http://172.16.12.227:80/",
+                "server_host": "feature36.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/pc-shield-2",
+                "is_test_mod": true,
+                "name": "feature37",
+                "game_info": "http://172.16.12.97:80/",
+                "server_host": "feature37.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/pc-heartbeat-whitelist",
+                "is_test_mod": true,
+                "name": "feature38",
+                "game_info": "http://172.16.12.173:80/",
+                "server_host": "feature38.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v47/60m-guide",
+                "is_test_mod": true,
+                "name": "feature39",
+                "game_info": "http://172.16.12.99:80/",
+                "server_host": "feature39.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/redis-big-key",
+                "is_test_mod": true,
+                "name": "feature4",
+                "game_info": "http://172.16.12.87:80/",
+                "server_host": "feature4.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/shell-fix",
+                "is_test_mod": true,
+                "name": "feature40",
+                "game_info": "http://172.16.12.38:80/",
+                "server_host": "feature40.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/idcard-fish",
+                "is_test_mod": false,
+                "name": "feature41",
+                "game_info": "http://172.16.12.194:80/",
+                "server_host": "feature41.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v47/colorful-box",
+                "is_test_mod": true,
+                "name": "feature42",
+                "game_info": "http://172.16.12.35:80/",
+                "server_host": "feature42.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/childrens-day-2361",
+                "is_test_mod": true,
+                "name": "feature43",
+                "game_info": "http://172.16.12.27:80/",
+                "server_host": "feature43.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v45/mode-pve",
+                "is_test_mod": true,
+                "name": "feature44",
+                "game_info": "http://172.16.12.164:80/",
+                "server_host": "feature44.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/hotfix/release/v46/magiclamp-global",
+                "is_test_mod": true,
+                "name": "feature45",
+                "game_info": "http://172.16.12.84:80/",
+                "server_host": "feature45.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v46/activity-data-buried-point",
+                "is_test_mod": true,
+                "name": "feature46",
+                "game_info": "http://172.16.12.53:80/",
+                "server_host": "feature46.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/turntable-optimize",
+                "is_test_mod": true,
+                "name": "feature47",
+                "game_info": "http://172.16.12.149:80/",
+                "server_host": "feature47.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "hotfix/release/v46/match",
+                "is_test_mod": true,
+                "name": "feature48",
+                "game_info": "http://172.16.12.201:80/",
+                "server_host": "feature48.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/arcade-championship",
+                "is_test_mod": true,
+                "name": "feature49",
+                "game_info": "http://172.16.12.192:80/",
+                "server_host": "feature49.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v47/0.47.1-1561",
+                "is_test_mod": true,
+                "name": "feature5",
+                "game_info": "http://172.16.12.91:80/",
+                "server_host": "feature5.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v47/web-activity",
+                "is_test_mod": true,
+                "name": "feature50",
+                "game_info": "http://172.16.12.215:80/",
+                "server_host": "feature50.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.7-1537",
+                "is_test_mod": true,
+                "name": "feature51",
+                "game_info": "http://172.16.12.90:80/",
+                "server_host": "feature51.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/adput-sdk-test",
+                "is_test_mod": true,
+                "name": "feature52",
+                "game_info": "http://172.16.12.181:80/",
+                "server_host": "feature52.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v47/new-pack",
+                "is_test_mod": true,
+                "name": "feature53",
+                "game_info": "http://feature53.openstack.biubiubiu.io:80/",
+                "server_host": "feature53.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/memory-check",
+                "is_test_mod": true,
+                "name": "feature54",
+                "game_info": "http://feature54.openstack.biubiubiu.io:80/",
+                "server_host": "feature54.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature55",
+                "game_info": "http://feature55.openstack.biubiubiu.io:80/",
+                "server_host": "feature55.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/birthisland-buff-optimization",
+                "is_test_mod": true,
+                "name": "feature6",
+                "game_info": "http://172.16.12.138:80/",
+                "server_host": "feature6.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/match-tag",
+                "is_test_mod": true,
+                "name": "feature60",
+                "game_info": "http://118.31.65.181:10080/",
+                "server_host": "feature60.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "release/v47/0.47.1-1561",
+                "is_test_mod": true,
+                "name": "feature61",
+                "game_info": "http://feature61.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature61.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature62",
+                "game_info": "http://feature62.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature62.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v49/mode-pve",
+                "is_test_mod": true,
+                "name": "feature63",
+                "game_info": "http://feature63.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature63.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "global/release/fast/v47/may-1",
+                "is_test_mod": true,
+                "name": "feature64",
+                "game_info": "http://feature64.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature64.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/arcade-championship",
+                "is_test_mod": true,
+                "name": "feature65",
+                "game_info": "http://feature65.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature65.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/anniversary-activity-barrage",
+                "is_test_mod": true,
+                "name": "feature66",
+                "game_info": "http://feature66.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature66.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/arcade-championship",
+                "is_test_mod": true,
+                "name": "feature67",
+                "game_info": "http://feature67.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature67.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature68",
+                "game_info": "http://feature68.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature68.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature69",
+                "game_info": "http://feature69.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature69.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/activityoptimize",
+                "is_test_mod": true,
+                "name": "feature7",
+                "game_info": "http://172.16.12.113:80/",
+                "server_host": "feature7.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/ip-location",
+                "is_test_mod": true,
+                "name": "feature70",
+                "game_info": "http://feature70.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature70.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "hotfix/feature/v47/scene-combine-op",
+                "is_test_mod": true,
+                "name": "feature71",
+                "game_info": "http://feature71.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature71.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature72",
+                "game_info": "http://feature72.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature72.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/ace-login-fix",
+                "is_test_mod": true,
+                "name": "feature73",
+                "game_info": "http://feature73.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature73.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/season-ss10",
+                "is_test_mod": true,
+                "name": "feature74",
+                "game_info": "http://feature74.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature74.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/shell-fix",
+                "is_test_mod": true,
+                "name": "feature75",
+                "game_info": "http://feature75.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature75.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/pc-resource",
+                "is_test_mod": true,
+                "name": "feature76",
+                "game_info": "http://feature76.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature76.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/suit-set",
+                "is_test_mod": true,
+                "name": "feature77",
+                "game_info": "http://feature77.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature77.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "global/hotfix/release/v47/wolfParty-config-optimize",
+                "is_test_mod": true,
+                "name": "feature78",
+                "game_info": "http://feature78.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature78.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "feature79",
+                "game_info": "http://feature79.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature79.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "hotfix/release/v46/energyrifle-adjust",
+                "is_test_mod": true,
+                "name": "feature8",
+                "game_info": "http://172.16.12.41:80/",
+                "server_host": "feature8.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "feature/v47/anniversary-activity-team",
+                "is_test_mod": true,
+                "name": "feature80",
+                "game_info": "http://feature80.aliyun.sausage.xd.com:10080/",
+                "server_host": "feature80.aliyun.sausage.xd.com"
+        },
+        {
+                "branch": "feature/v47/pc-share",
+                "is_test_mod": true,
+                "name": "feature9",
+                "game_info": "http://172.16.12.183:80/",
+                "server_host": "feature9.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.8-1538",
+                "is_test_mod": true,
+                "name": "global1",
+                "game_info": "http://172.16.12.42:80/",
+                "server_host": "global1.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/hotfix/release/v46/1541-sdk",
+                "is_test_mod": true,
+                "name": "global2",
+                "game_info": "http://172.16.12.236:80/",
+                "server_host": "global2.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.8-1538",
+                "is_test_mod": true,
+                "name": "global3",
+                "game_info": "http://172.16.12.124:80/",
+                "server_host": "global3.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.7-1537",
+                "is_test_mod": true,
+                "name": "global4",
+                "game_info": "http://172.16.12.54:80/",
+                "server_host": "global4.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.12-1542",
+                "is_test_mod": true,
+                "name": "global5",
+                "game_info": "http://172.16.12.229:80/",
+                "server_host": "global5.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/fast/v47/may-1",
+                "is_test_mod": true,
+                "name": "global6",
+                "game_info": "http://172.16.12.157:80/",
+                "server_host": "global6.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/release/v46/0.46.13-1543",
+                "is_test_mod": true,
+                "name": "global7",
+                "game_info": "http://172.16.12.198:80/",
+                "server_host": "global7.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v47/season-settlement",
+                "is_test_mod": true,
+                "name": "global8",
+                "game_info": "http://172.16.12.28:80/",
+                "server_host": "global8.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/hotfix/release/v46/0.46.7-1537-EnterGameFix",
+                "is_test_mod": true,
+                "name": "global9",
+                "game_info": "http://172.16.12.184:80/",
+                "server_host": "global9.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "hotfix/release/v46/basketball",
+                "is_test_mod": true,
+                "name": "hotfix124",
+                "game_info": "http://172.16.12.70:80/",
+                "server_host": "hotfix124.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "hotfix/release/v46/xian-xia",
+                "is_test_mod": true,
+                "name": "hotfix125",
+                "game_info": "http://172.16.12.108:80/",
+                "server_host": "hotfix125.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "hotfix/release/v46/circus-optimize-new",
+                "is_test_mod": true,
+                "name": "hotfix126",
+                "game_info": "http://172.16.12.95:80/",
+                "server_host": "hotfix126.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.8-1538",
+                "is_test_mod": true,
+                "name": "hotfix127",
+                "game_info": "http://172.16.12.121:80/",
+                "server_host": "hotfix127.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "global/feature/v46/network",
+                "is_test_mod": true,
+                "name": "mirror",
+                "game_info": "http://s4.biubiubiu.io:81/",
+                "server_host": "s4.biubiubiu.io"
+        },
+        {
+                "branch": "release/v33/0.33.3-1023",
+                "is_test_mod": true,
+                "name": "noupdate",
+                "game_info": "",
+                "server_host": ""
+        },
+        {
+                "branch": "release/v46/0.46.5-1535",
+                "is_test_mod": true,
+                "name": "ops-k8s-f00",
+                "game_info": "http://172.16.17.46:80/",
+                "server_host": "ops-k8s-f00"
+        },
+        {
+                "branch": "release/v46/0.46.7-1537",
+                "is_test_mod": true,
+                "name": "timetest1",
+                "game_info": "http://172.16.12.93:80/",
+                "server_host": "timetest1.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v46/0.46.6-1536",
+                "is_test_mod": true,
+                "name": "timetest2",
+                "game_info": "http://172.16.12.216:80/",
+                "server_host": "timetest2.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v47/0.47.1-1561",
+                "is_test_mod": true,
+                "name": "timetest3",
+                "game_info": "http://172.16.12.44:80/",
+                "server_host": "timetest3.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v47/0.47.1-1561",
+                "is_test_mod": true,
+                "name": "timetest4",
+                "game_info": "http://172.16.12.77:80/",
+                "server_host": "timetest4.openstack.biubiubiu.io"
+        },
+        {
+                "branch": "release/v50/0.50.15-1685",
+                "is_test_mod": true,
+                "name": "wangabin",
+                "game_info": "http://dev-game-info.biubiubiu.io:1080/wangabin/",
+                "server_host": "172.16.12.139"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "whisper-test",
+                "game_info": "",
+                "server_host": "172.16.12.170"
+        },
+        {
+                "branch": "release/v38/0.38.7-1167",
+                "is_test_mod": true,
+                "name": "xiaozhijian",
+                "game_info": "",
+                "server_host": "172.16.12.37"
+        },
+        {
+                "branch": "feature/v40/send-activity-mail",
+                "is_test_mod": true,
+                "name": "xikang",
+                "game_info": "http://172.16.12.202:80/",
+                "server_host": "172.16.12.202"
+        },
+        {
+                "branch": "release/v33/0.33.1-1021",
+                "is_test_mod": true,
+                "name": "zdt",
+                "game_info": "",
+                "server_host": "172.16.12.146"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": true,
+                "name": "zdt_test",
+                "game_info": "",
+                "server_host": "172.16.12.146"
+        },
+        {
+                "branch": "release/v45/0.45.11-1511",
+                "is_test_mod": true,
+                "name": "zhengrenbin",
+                "game_info": "",
+                "server_host": "172.16.12.170"
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外正式服",
+                "game_info": "https://res-global-sg-master.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外正式服(内网)",
+                "game_info": "https://res-global-debug.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外正式服(外网)",
+                "game_info": "https://res-global-wan.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外先行服",
+                "game_info": "https://res-global-sg-master.sausage.xd.com/global_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外先行服(内网)",
+                "game_info": "https://res-global-debug.sausage.xd.com/global_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "海外先行服(外网)",
+                "game_info": "https://res-global-wan.sausage.xd.com/global_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "global_develop",
+                "game_info": "https://global-develop-game-info.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "global_shenhe",
+                "game_info": "https://res-global-sg-master.sausage.xd.com/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "global_test_shenhe",
+                "game_info": "https://res-global-sg-master.sausage.xd.com/global_test/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "越南服",
+                "game_info": "http://game-info-yn.sausage.xd.com/game-info/",
+                "server_host": ""
+        },
+        {
+                "branch": "",
+                "is_test_mod": true,
+                "name": "越南审核服",
+                "game_info": "http://game-info-yn.sausage.xd.com/game-info/",
+                "server_host": ""
+        },
+        {
+                "branch": "global/release/v48/0.48.22-1622",
+                "is_test_mod": "true",
+                "name": "k8s-f166",
+                "game_info": "http://gameinfo.k8s-f166.k8s.biubiubiu.io/",
+                "server_host": "k8s-f166"
+        },
+        {
+                "branch": "release/v49/0.49.3-1633",
+                "is_test_mod": "true",
+                "name": "k8s-f108",
+                "game_info": "http://gameinfo.k8s-f108.k8s.biubiubiu.io/",
+                "server_host": "k8s-f108"
+        },
+        {
+                "branch": "feature/v50/warehouse-op",
+                "is_test_mod": "true",
+                "name": "k8s-f140",
+                "game_info": "http://gameinfo.k8s-f140.k8s.biubiubiu.io/",
+                "server_host": "k8s-f140"
+        },
+        {
+                "branch": "feature/v50/ai-update",
+                "is_test_mod": "true",
+                "name": "k8s-f165",
+                "game_info": "http://gameinfo.k8s-f165.k8s.biubiubiu.io/",
+                "server_host": "k8s-f165"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f90",
+                "game_info": "http://gameinfo.k8s-f90.k8s.biubiubiu.io/",
+                "server_host": "k8s-f90"
+        },
+        {
+                "branch": "feature/v50/mythcarrier-audio",
+                "is_test_mod": "true",
+                "name": "k8s-f153",
+                "game_info": "http://gameinfo.k8s-f153.k8s.biubiubiu.io/",
+                "server_host": "k8s-f153"
+        },
+        {
+                "branch": "global/feature/v49/normal-activity4",
+                "is_test_mod": "true",
+                "name": "k8s-f72",
+                "game_info": "http://gameinfo.k8s-f72.k8s.biubiubiu.io/",
+                "server_host": "k8s-f72"
+        },
+        {
+                "branch": "feature/v49/war-crd",
+                "is_test_mod": "true",
+                "name": "k8s-f167",
+                "game_info": "http://gameinfo.k8s-f167.k8s.biubiubiu.io/",
+                "server_host": "k8s-f167"
+        },
+        {
+                "branch": "release/v50/0.50.2-1672",
+                "is_test_mod": "true",
+                "name": "k8s-f120",
+                "game_info": "http://gameinfo.k8s-f120.k8s.biubiubiu.io/",
+                "server_host": "k8s-f120"
+        },
+        {
+                "branch": "feature/v51/swordtiger",
+                "is_test_mod": "true",
+                "name": "k8s-f178",
+                "game_info": "http://gameinfo.k8s-f178.k8s.biubiubiu.io/",
+                "server_host": "k8s-f178"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1671/audio-asset-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f121",
+                "game_info": "http://gameinfo.k8s-f121.k8s.biubiubiu.io/",
+                "server_host": "k8s-f121"
+        },
+        {
+                "branch": "hotfix/release/v50/1676/pvemode-vip-gzy",
+                "is_test_mod": "true",
+                "name": "k8s-f184",
+                "game_info": "http://gameinfo.k8s-f184.k8s.biubiubiu.io/",
+                "server_host": "k8s-f184"
+        },
+        {
+                "branch": "hotfix/release/v50/1676/bladeball-art",
+                "is_test_mod": "true",
+                "name": "k8s-f155",
+                "game_info": "http://gameinfo.k8s-f155.k8s.biubiubiu.io/",
+                "server_host": "k8s-f155"
+        },
+        {
+                "branch": "feature/v50/scc-show",
+                "is_test_mod": "true",
+                "name": "k8s-f152",
+                "game_info": "http://gameinfo.k8s-f152.k8s.biubiubiu.io/",
+                "server_host": "k8s-f152"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f138",
+                "game_info": "http://gameinfo.k8s-f138.k8s.biubiubiu.io/",
+                "server_host": "k8s-f138"
+        },
+        {
+                "branch": "global/feature/v50/jieji-mode2",
+                "is_test_mod": "true",
+                "name": "k8s-f157",
+                "game_info": "http://gameinfo.k8s-f157.k8s.biubiubiu.io/",
+                "server_host": "k8s-f157"
+        },
+        {
+                "branch": "global/release/v49/0.49.16-1646",
+                "is_test_mod": "true",
+                "name": "k8s-f156",
+                "game_info": "http://gameinfo.k8s-f156.k8s.biubiubiu.io/",
+                "server_host": "k8s-f156"
+        },
+        {
+                "branch": "hotfix/release/v50/1678/0.50.8-1678-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f179",
+                "game_info": "http://gameinfo.k8s-f179.k8s.biubiubiu.io/",
+                "server_host": "k8s-f179"
+        },
+        {
+                "branch": "feature/v50/dream-crate",
+                "is_test_mod": "true",
+                "name": "k8s-f185",
+                "game_info": "http://gameinfo.k8s-f185.k8s.biubiubiu.io/",
+                "server_host": "k8s-f185"
+        },
+        {
+                "branch": "hotfix/release/v50/1678/pve-reward-test",
+                "is_test_mod": "true",
+                "name": "k8s-f126",
+                "game_info": "http://gameinfo.k8s-f126.k8s.biubiubiu.io/",
+                "server_host": "k8s-f126"
+        },
+        {
+                "branch": "feature/v51/role-state",
+                "is_test_mod": "true",
+                "name": "k8s-f158",
+                "game_info": "http://gameinfo.k8s-f158.k8s.biubiubiu.io/",
+                "server_host": "k8s-f158"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1676/lhc-test",
+                "is_test_mod": "true",
+                "name": "k8s-f183",
+                "game_info": "http://gameinfo.k8s-f183.k8s.biubiubiu.io/",
+                "server_host": "k8s-f183"
+        },
+        {
+                "branch": "global/release/v49/0.49.15-1645",
+                "is_test_mod": "true",
+                "name": "k8s-f180",
+                "game_info": "http://gameinfo.k8s-f180.k8s.biubiubiu.io/",
+                "server_host": "k8s-f180"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1676/0.50.6-1676-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f170",
+                "game_info": "http://gameinfo.k8s-f170.k8s.biubiubiu.io/",
+                "server_host": "k8s-f170"
+        },
+        {
+                "branch": "feature/v50/optimize-memory",
+                "is_test_mod": "true",
+                "name": "k8s-f151",
+                "game_info": "http://gameinfo.k8s-f151.k8s.biubiubiu.io/",
+                "server_host": "k8s-f151"
+        },
+        {
+                "branch": "hotfix/release/v50/1671/kamenactivity",
+                "is_test_mod": "true",
+                "name": "k8s-f127",
+                "game_info": "http://gameinfo.k8s-f127.k8s.biubiubiu.io/",
+                "server_host": "k8s-f127"
+        },
+        {
+                "branch": "feature/v50/rolemesh-collect-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f139",
+                "game_info": "http://gameinfo.k8s-f139.k8s.biubiubiu.io/",
+                "server_host": "k8s-f139"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f128",
+                "game_info": "http://gameinfo.k8s-f128.k8s.biubiubiu.io/",
+                "server_host": "k8s-f128"
+        },
+        {
+                "branch": "release/v50/0.50.15-1685",
+                "is_test_mod": "true",
+                "name": "k8s-f186",
+                "game_info": "http://gameinfo.k8s-f186.k8s.biubiubiu.io/",
+                "server_host": "k8s-f186"
+        },
+        {
+                "branch": "hotfix/release/v50/1684/unity2021",
+                "is_test_mod": "true",
+                "name": "k8s-f181",
+                "game_info": "http://gameinfo.k8s-f181.k8s.biubiubiu.io/",
+                "server_host": "k8s-f181"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1686/unity2021",
+                "is_test_mod": "true",
+                "name": "k8s-f169",
+                "game_info": "http://gameinfo.k8s-f169.k8s.biubiubiu.io/",
+                "server_host": "k8s-f169"
+        },
+        {
+                "branch": "feature/v51/zhanbu6",
+                "is_test_mod": "true",
+                "name": "k8s-f168",
+                "game_info": "http://gameinfo.k8s-f168.k8s.biubiubiu.io/",
+                "server_host": "k8s-f168"
+        },
+        {
+                "branch": "release/v50/0.50.15-1685",
+                "is_test_mod": "true",
+                "name": "k8s-f122",
+                "game_info": "http://gameinfo.k8s-f122.k8s.biubiubiu.io/",
+                "server_host": "k8s-f122"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1686/0.50.16-1686-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f187",
+                "game_info": "http://gameinfo.k8s-f187.k8s.biubiubiu.io/",
+                "server_host": "k8s-f187"
+        },
+        {
+                "branch": "global/hotfix/release/v50/1676/lhc-test",
+                "is_test_mod": "true",
+                "name": "k8s-f188",
+                "game_info": "http://gameinfo.k8s-f188.k8s.biubiubiu.io/",
+                "server_host": "k8s-f188"
+        },
+        {
+                "branch": "feature/v51/zhanbu-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f177",
+                "game_info": "http://gameinfo.k8s-f177.k8s.biubiubiu.io/",
+                "server_host": "k8s-f177"
+        },
+        {
+                "branch": "release/v50/0.50.16-1686-unity2021",
+                "is_test_mod": "true",
+                "name": "k8s-f182",
+                "game_info": "http://gameinfo.k8s-f182.k8s.biubiubiu.io/",
+                "server_host": "k8s-f182"
+        },
+        {
+                "branch": "global/release/v50/0.50.17-1687",
+                "is_test_mod": "true",
+                "name": "k8s-f150",
+                "game_info": "http://gameinfo.k8s-f150.k8s.biubiubiu.io/",
+                "server_host": "k8s-f150"
+        },
+        {
+                "branch": "global/feature/v51/new-hero-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f154",
+                "game_info": "http://gameinfo.k8s-f154.k8s.biubiubiu.io/",
+                "server_host": "k8s-f154"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f111",
+                "game_info": "http://gameinfo.k8s-f111.k8s.biubiubiu.io/",
+                "server_host": "k8s-f111"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f60",
+                "game_info": "http://gameinfo.k8s-f60.k8s.biubiubiu.io/",
+                "server_host": "k8s-f60"
+        },
+        {
+                "branch": "release/v52/0.52.1-1750",
+                "is_test_mod": "true",
+                "name": "k8s-f76",
+                "game_info": "http://gameinfo.k8s-f76.k8s.biubiubiu.io/",
+                "server_host": "k8s-f76"
+        },
+        {
+                "branch": "feature/v53/item-time-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f225",
+                "game_info": "http://gameinfo.k8s-f225.k8s.biubiubiu.io/",
+                "server_host": "k8s-f225"
+        },
+        {
+                "branch": "feature/v54/apk-diff",
+                "is_test_mod": "true",
+                "name": "k8s-f62",
+                "game_info": "http://gameinfo.k8s-f62.k8s.biubiubiu.io/",
+                "server_host": "k8s-f62"
+        },
+        {
+                "branch": "feature/v53/rainbow-stone-2021",
+                "is_test_mod": "true",
+                "name": "k8s-f63",
+                "game_info": "http://gameinfo.k8s-f63.k8s.biubiubiu.io/",
+                "server_host": "k8s-f63"
+        },
+        {
+                "branch": "global/feature/v53/normal-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f147",
+                "game_info": "http://gameinfo.k8s-f147.k8s.biubiubiu.io/",
+                "server_host": "k8s-f147"
+        },
+        {
+                "branch": "global/feature/v53/new-lobby",
+                "is_test_mod": "true",
+                "name": "k8s-f232",
+                "game_info": "http://gameinfo.k8s-f232.k8s.biubiubiu.io/",
+                "server_host": "k8s-f232"
+        },
+        {
+                "branch": "hotfix/release/v53/1802/opening-animation",
+                "is_test_mod": "true",
+                "name": "k8s-f164",
+                "game_info": "http://gameinfo.k8s-f164.k8s.biubiubiu.io/",
+                "server_host": "k8s-f164"
+        },
+        {
+                "branch": "release/v52/0.52.13-1763",
+                "is_test_mod": "true",
+                "name": "k8s-f129",
+                "game_info": "http://gameinfo.k8s-f129.k8s.biubiubiu.io/",
+                "server_host": "k8s-f129"
+        },
+        {
+                "branch": "global/feature/v53/new-lobby",
+                "is_test_mod": "true",
+                "name": "k8s-f144",
+                "game_info": "http://gameinfo.k8s-f144.k8s.biubiubiu.io/",
+                "server_host": "k8s-f144"
+        },
+        {
+                "branch": "release/v53/0.53.3-1803",
+                "is_test_mod": "true",
+                "name": "k8s-f146",
+                "game_info": "http://gameinfo.k8s-f146.k8s.biubiubiu.io/",
+                "server_host": "k8s-f146"
+        },
+        {
+                "branch": "global/feature/v53/pve-mode",
+                "is_test_mod": "true",
+                "name": "k8s-f99",
+                "game_info": "http://gameinfo.k8s-f99.k8s.biubiubiu.io/",
+                "server_host": "k8s-f99"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f171",
+                "game_info": "http://gameinfo.k8s-f171.k8s.biubiubiu.io/",
+                "server_host": "k8s-f171"
+        },
+        {
+                "branch": "feature/v54/item-time-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f142",
+                "game_info": "http://gameinfo.k8s-f142.k8s.biubiubiu.io/",
+                "server_host": "k8s-f142"
+        },
+        {
+                "branch": "hotfix/release/v52/1764/manghe-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f123",
+                "game_info": "http://gameinfo.k8s-f123.k8s.biubiubiu.io/",
+                "server_host": "k8s-f123"
+        },
+        {
+                "branch": "release/v53/0.53.4-1804",
+                "is_test_mod": "true",
+                "name": "k8s-f107",
+                "game_info": "http://gameinfo.k8s-f107.k8s.biubiubiu.io/",
+                "server_host": "k8s-f107"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f172",
+                "game_info": "http://gameinfo.k8s-f172.k8s.biubiubiu.io/",
+                "server_host": "k8s-f172"
+        },
+        {
+                "branch": "feature/v54/custom-phrase",
+                "is_test_mod": "true",
+                "name": "k8s-f102",
+                "game_info": "http://gameinfo.k8s-f102.k8s.biubiubiu.io/",
+                "server_host": "k8s-f102"
+        },
+        {
+                "branch": "global/release/v52/0.52.15-1765",
+                "is_test_mod": "true",
+                "name": "k8s-f83",
+                "game_info": "http://gameinfo.k8s-f83.k8s.biubiubiu.io/",
+                "server_host": "k8s-f83"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/custom-button",
+                "is_test_mod": "true",
+                "name": "k8s-f173",
+                "game_info": "http://gameinfo.k8s-f173.k8s.biubiubiu.io/",
+                "server_host": "k8s-f173"
+        },
+        {
+                "branch": "hotfix/release/v53/1805/watch-match-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f119",
+                "game_info": "http://gameinfo.k8s-f119.k8s.biubiubiu.io/",
+                "server_host": "k8s-f119"
+        },
+        {
+                "branch": "hotfix/release/v53/1805/watch-match-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f307",
+                "game_info": "http://gameinfo.k8s-f307.k8s.biubiubiu.io/",
+                "server_host": "k8s-f307"
+        },
+        {
+                "branch": "global/feature/v53/hwai",
+                "is_test_mod": "true",
+                "name": "k8s-f162",
+                "game_info": "http://gameinfo.k8s-f162.k8s.biubiubiu.io/",
+                "server_host": "k8s-f162"
+        },
+        {
+                "branch": "global/feature/v53/surprise-crate",
+                "is_test_mod": "true",
+                "name": "k8s-f95",
+                "game_info": "http://gameinfo.k8s-f95.k8s.biubiubiu.io/",
+                "server_host": "k8s-f95"
+        },
+        {
+                "branch": "feature/v54/dogtag",
+                "is_test_mod": "true",
+                "name": "k8s-f118",
+                "game_info": "http://gameinfo.k8s-f118.k8s.biubiubiu.io/",
+                "server_host": "k8s-f118"
+        },
+        {
+                "branch": "feature/v54/chat-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f201",
+                "game_info": "http://gameinfo.k8s-f201.k8s.biubiubiu.io/",
+                "server_host": "k8s-f201"
+        },
+        {
+                "branch": "feature/v54/novice-special",
+                "is_test_mod": "true",
+                "name": "k8s-f143",
+                "game_info": "http://gameinfo.k8s-f143.k8s.biubiubiu.io/",
+                "server_host": "k8s-f143"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1803/custom",
+                "is_test_mod": "true",
+                "name": "k8s-f113",
+                "game_info": "http://gameinfo.k8s-f113.k8s.biubiubiu.io/",
+                "server_host": "k8s-f113"
+        },
+        {
+                "branch": "feature/v53/transfomers",
+                "is_test_mod": "true",
+                "name": "k8s-f109",
+                "game_info": "http://gameinfo.k8s-f109.k8s.biubiubiu.io/",
+                "server_host": "k8s-f109"
+        },
+        {
+                "branch": "global/feature/v54/xdsdk-6.18.0",
+                "is_test_mod": "true",
+                "name": "k8s-f100",
+                "game_info": "http://gameinfo.k8s-f100.k8s.biubiubiu.io/",
+                "server_host": "k8s-f100"
+        },
+        {
+                "branch": "feature/v53/transfomers",
+                "is_test_mod": "true",
+                "name": "k8s-f98",
+                "game_info": "http://gameinfo.k8s-f98.k8s.biubiubiu.io/",
+                "server_host": "k8s-f98"
+        },
+        {
+                "branch": "release/v53/0.53.6-1806",
+                "is_test_mod": "true",
+                "name": "k8s-f131",
+                "game_info": "http://gameinfo.k8s-f131.k8s.biubiubiu.io/",
+                "server_host": "k8s-f131"
+        },
+        {
+                "branch": "feature/v53/transfomers",
+                "is_test_mod": "true",
+                "name": "k8s-f64",
+                "game_info": "http://gameinfo.k8s-f64.k8s.biubiubiu.io/",
+                "server_host": "k8s-f64"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1805/global1765-to-global1805",
+                "is_test_mod": "true",
+                "name": "k8s-f130",
+                "game_info": "http://gameinfo.k8s-f130.k8s.biubiubiu.io/",
+                "server_host": "k8s-f130"
+        },
+        {
+                "branch": "global/release/v53/0.53.6-1806",
+                "is_test_mod": "true",
+                "name": "k8s-f70",
+                "game_info": "http://gameinfo.k8s-f70.k8s.biubiubiu.io/",
+                "server_host": "k8s-f70"
+        },
+        {
+                "branch": "feature/v54/weapon-store",
+                "is_test_mod": "true",
+                "name": "k8s-f79",
+                "game_info": "http://gameinfo.k8s-f79.k8s.biubiubiu.io/",
+                "server_host": "k8s-f79"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f86",
+                "game_info": "http://gameinfo.k8s-f86.k8s.biubiubiu.io/",
+                "server_host": "k8s-f86"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f228",
+                "game_info": "http://gameinfo.k8s-f228.k8s.biubiubiu.io/",
+                "server_host": "k8s-f228"
+        },
+        {
+                "branch": "feature/v54/defusal-mode-gameplay",
+                "is_test_mod": "true",
+                "name": "k8s-f106",
+                "game_info": "http://gameinfo.k8s-f106.k8s.biubiubiu.io/",
+                "server_host": "k8s-f106"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f145",
+                "game_info": "http://gameinfo.k8s-f145.k8s.biubiubiu.io/",
+                "server_host": "k8s-f145"
+        },
+        {
+                "branch": "feature/v54/custom-button",
+                "is_test_mod": "true",
+                "name": "k8s-f174",
+                "game_info": "http://gameinfo.k8s-f174.k8s.biubiubiu.io/",
+                "server_host": "k8s-f174"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f61",
+                "game_info": "http://gameinfo.k8s-f61.k8s.biubiubiu.io/",
+                "server_host": "k8s-f61"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/7th-anniversary",
+                "is_test_mod": "true",
+                "name": "k8s-f67",
+                "game_info": "http://gameinfo.k8s-f67.k8s.biubiubiu.io/",
+                "server_host": "k8s-f67"
+        },
+        {
+                "branch": "release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f77",
+                "game_info": "http://gameinfo.k8s-f77.k8s.biubiubiu.io/",
+                "server_host": "k8s-f77"
+        },
+        {
+                "branch": "release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f74",
+                "game_info": "http://gameinfo.k8s-f74.k8s.biubiubiu.io/",
+                "server_host": "k8s-f74"
+        },
+        {
+                "branch": "hotfix/release/v53/1807/discount-coupon",
+                "is_test_mod": "true",
+                "name": "k8s-f125",
+                "game_info": "http://gameinfo.k8s-f125.k8s.biubiubiu.io/",
+                "server_host": "k8s-f125"
+        },
+        {
+                "branch": "feature/v54/season-ss17",
+                "is_test_mod": "true",
+                "name": "k8s-f117",
+                "game_info": "http://gameinfo.k8s-f117.k8s.biubiubiu.io/",
+                "server_host": "k8s-f117"
+        },
+        {
+                "branch": "hotfix/release/v53/1807/interactive-lobby",
+                "is_test_mod": "true",
+                "name": "k8s-f148",
+                "game_info": "http://gameinfo.k8s-f148.k8s.biubiubiu.io/",
+                "server_host": "k8s-f148"
+        },
+        {
+                "branch": "feature/v54/warehouse-expand",
+                "is_test_mod": "true",
+                "name": "k8s-f85",
+                "game_info": "http://gameinfo.k8s-f85.k8s.biubiubiu.io/",
+                "server_host": "k8s-f85"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f92",
+                "game_info": "http://gameinfo.k8s-f92.k8s.biubiubiu.io/",
+                "server_host": "k8s-f92"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/7th-anniversary-overview",
+                "is_test_mod": "true",
+                "name": "k8s-f163",
+                "game_info": "http://gameinfo.k8s-f163.k8s.biubiubiu.io/",
+                "server_host": "k8s-f163"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/7th-anniversary-overview",
+                "is_test_mod": "true",
+                "name": "k8s-f114",
+                "game_info": "http://gameinfo.k8s-f114.k8s.biubiubiu.io/",
+                "server_host": "k8s-f114"
+        },
+        {
+                "branch": "hotfix/release/v53/1807/binfen-special-offer",
+                "is_test_mod": "true",
+                "name": "k8s-f87",
+                "game_info": "http://gameinfo.k8s-f87.k8s.biubiubiu.io/",
+                "server_host": "k8s-f87"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/car-avatar-op",
+                "is_test_mod": "true",
+                "name": "k8s-f112",
+                "game_info": "http://gameinfo.k8s-f112.k8s.biubiubiu.io/",
+                "server_host": "k8s-f112"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/7th-anniversary-overview",
+                "is_test_mod": "true",
+                "name": "k8s-f110",
+                "game_info": "http://gameinfo.k8s-f110.k8s.biubiubiu.io/",
+                "server_host": "k8s-f110"
+        },
+        {
+                "branch": "feature/v54/new-activity-view",
+                "is_test_mod": "true",
+                "name": "k8s-f133",
+                "game_info": "http://gameinfo.k8s-f133.k8s.biubiubiu.io/",
+                "server_host": "k8s-f133"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f141",
+                "game_info": "http://gameinfo.k8s-f141.k8s.biubiubiu.io/",
+                "server_host": "k8s-f141"
+        },
+        {
+                "branch": "feature/v54/season-video-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f116",
+                "game_info": "http://gameinfo.k8s-f116.k8s.biubiubiu.io/",
+                "server_host": "k8s-f116"
+        },
+        {
+                "branch": "feature/v54/subpackage-repair-dev",
+                "is_test_mod": "true",
+                "name": "k8s-f96",
+                "game_info": "http://gameinfo.k8s-f96.k8s.biubiubiu.io/",
+                "server_host": "k8s-f96"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/rainbow-fix",
+                "is_test_mod": "true",
+                "name": "k8s-f136",
+                "game_info": "http://gameinfo.k8s-f136.k8s.biubiubiu.io/",
+                "server_host": "k8s-f136"
+        },
+        {
+                "branch": "release/v53/0.53.10-1810",
+                "is_test_mod": "true",
+                "name": "k8s-f132",
+                "game_info": "http://gameinfo.k8s-f132.k8s.biubiubiu.io/",
+                "server_host": "k8s-f132"
+        },
+        {
+                "branch": "release/v53/0.53.10-1810",
+                "is_test_mod": "true",
+                "name": "k8s-f175",
+                "game_info": "http://gameinfo.k8s-f175.k8s.biubiubiu.io/",
+                "server_host": "k8s-f175"
+        },
+        {
+                "branch": "global/release/v53/0.53.7-1807",
+                "is_test_mod": "true",
+                "name": "k8s-f159",
+                "game_info": "http://gameinfo.k8s-f159.k8s.biubiubiu.io/",
+                "server_host": "k8s-f159"
+        },
+        {
+                "branch": "hotfix/release/v53/1809/1809-android-hotupdate",
+                "is_test_mod": "true",
+                "name": "k8s-f124",
+                "game_info": "http://gameinfo.k8s-f124.k8s.biubiubiu.io/",
+                "server_host": "k8s-f124"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f101",
+                "game_info": "http://gameinfo.k8s-f101.k8s.biubiubiu.io/",
+                "server_host": "k8s-f101"
+        },
+        {
+                "branch": "feature/v54/magic-merge-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f103",
+                "game_info": "http://gameinfo.k8s-f103.k8s.biubiubiu.io/",
+                "server_host": "k8s-f103"
+        },
+        {
+                "branch": "release/v53/0.53.11-1811",
+                "is_test_mod": "true",
+                "name": "k8s-f160",
+                "game_info": "http://gameinfo.k8s-f160.k8s.biubiubiu.io/",
+                "server_host": "k8s-f160"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/spin-41",
+                "is_test_mod": "true",
+                "name": "k8s-f78",
+                "game_info": "http://gameinfo.k8s-f78.k8s.biubiubiu.io/",
+                "server_host": "k8s-f78"
+        },
+        {
+                "branch": "release/v53/0.53.11-1811",
+                "is_test_mod": "true",
+                "name": "k8s-f176",
+                "game_info": "http://gameinfo.k8s-f176.k8s.biubiubiu.io/",
+                "server_host": "k8s-f176"
+        },
+        {
+                "branch": "hotfix/release/v53/1811/mode-ui",
+                "is_test_mod": "true",
+                "name": "k8s-f73",
+                "game_info": "http://gameinfo.k8s-f73.k8s.biubiubiu.io/",
+                "server_host": "k8s-f73"
+        },
+        {
+                "branch": "release/v53/0.53.11-1811",
+                "is_test_mod": "true",
+                "name": "k8s-f94",
+                "game_info": "http://gameinfo.k8s-f94.k8s.biubiubiu.io/",
+                "server_host": "k8s-f94"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/discount-coupon",
+                "is_test_mod": "true",
+                "name": "k8s-f93",
+                "game_info": "http://gameinfo.k8s-f93.k8s.biubiubiu.io/",
+                "server_host": "k8s-f93"
+        },
+        {
+                "branch": "feature/v53/ai-navmesh",
+                "is_test_mod": "true",
+                "name": "k8s-f89",
+                "game_info": "http://gameinfo.k8s-f89.k8s.biubiubiu.io/",
+                "server_host": "k8s-f89"
+        },
+        {
+                "branch": "release/v53/0.53.1-1801",
+                "is_test_mod": "true",
+                "name": "k8s-f137",
+                "game_info": "http://gameinfo.k8s-f137.k8s.biubiubiu.io/",
+                "server_host": "k8s-f137"
+        },
+        {
+                "branch": "feature/v54/ad-creat",
+                "is_test_mod": "true",
+                "name": "k8s-f161",
+                "game_info": "http://gameinfo.k8s-f161.k8s.biubiubiu.io/",
+                "server_host": "k8s-f161"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/discount-coupon",
+                "is_test_mod": "true",
+                "name": "k8s-f65",
+                "game_info": "http://gameinfo.k8s-f65.k8s.biubiubiu.io/",
+                "server_host": "k8s-f65"
+        },
+        {
+                "branch": "hotfix/release/v53/1801/manhua",
+                "is_test_mod": "true",
+                "name": "k8s-f105",
+                "game_info": "http://gameinfo.k8s-f105.k8s.biubiubiu.io/",
+                "server_host": "k8s-f105"
+        },
+        {
+                "branch": "release/v52/0.52.13-1763",
+                "is_test_mod": "true",
+                "name": "k8s-f149",
+                "game_info": "http://gameinfo.k8s-f149.k8s.biubiubiu.io/",
+                "server_host": "k8s-f149"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1812/1812-to-global1812",
+                "is_test_mod": "true",
+                "name": "k8s-f68",
+                "game_info": "http://gameinfo.k8s-f68.k8s.biubiubiu.io/",
+                "server_host": "k8s-f68"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1812/1812-to-global1812",
+                "is_test_mod": "true",
+                "name": "k8s-f75",
+                "game_info": "http://gameinfo.k8s-f75.k8s.biubiubiu.io/",
+                "server_host": "k8s-f75"
+        },
+        {
+                "branch": "release/v53/0.53.12-1812",
+                "is_test_mod": "true",
+                "name": "k8s-f91",
+                "game_info": "http://gameinfo.k8s-f91.k8s.biubiubiu.io/",
+                "server_host": "k8s-f91"
+        },
+        {
+                "branch": "release/v53/0.53.12-1812",
+                "is_test_mod": "true",
+                "name": "k8s-f81",
+                "game_info": "http://gameinfo.k8s-f81.k8s.biubiubiu.io/",
+                "server_host": "k8s-f81"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/funnydb-0.9.6",
+                "is_test_mod": "true",
+                "name": "k8s-f319",
+                "game_info": "http://gameinfo.k8s-f319.k8s.biubiubiu.io/",
+                "server_host": "k8s-f319"
+        },
+        {
+                "branch": "hotfix/release/v53/1802/zhigou-41",
+                "is_test_mod": "true",
+                "name": "k8s-f66",
+                "game_info": "http://gameinfo.k8s-f66.k8s.biubiubiu.io/",
+                "server_host": "k8s-f66"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1807/global-guidance-fix",
+                "is_test_mod": "true",
+                "name": "k8s-f82",
+                "game_info": "http://gameinfo.k8s-f82.k8s.biubiubiu.io/",
+                "server_host": "k8s-f82"
+        },
+        {
+                "branch": "release/v53/0.53.13-1813",
+                "is_test_mod": "true",
+                "name": "k8s-f80",
+                "game_info": "http://gameinfo.k8s-f80.k8s.biubiubiu.io/",
+                "server_host": "k8s-f80"
+        },
+        {
+                "branch": "feature/v53/opening-animation",
+                "is_test_mod": "true",
+                "name": "k8s-f309",
+                "game_info": "http://gameinfo.k8s-f309.k8s.biubiubiu.io/",
+                "server_host": "k8s-f309"
+        },
+        {
+                "branch": "hotfix/release/v53/1805/binfen80",
+                "is_test_mod": "true",
+                "name": "k8s-f69",
+                "game_info": "http://gameinfo.k8s-f69.k8s.biubiubiu.io/",
+                "server_host": "k8s-f69"
+        },
+        {
+                "branch": "release/v53/0.53.13-1813",
+                "is_test_mod": "true",
+                "name": "k8s-f115",
+                "game_info": "http://gameinfo.k8s-f115.k8s.biubiubiu.io/",
+                "server_host": "k8s-f115"
+        },
+        {
+                "branch": "hotfix/release/v53/1805/binfen80",
+                "is_test_mod": "true",
+                "name": "k8s-f104",
+                "game_info": "http://gameinfo.k8s-f104.k8s.biubiubiu.io/",
+                "server_host": "k8s-f104"
+        },
+        {
+                "branch": "global/release/v53/0.53.13-1813",
+                "is_test_mod": "true",
+                "name": "k8s-f84",
+                "game_info": "http://gameinfo.k8s-f84.k8s.biubiubiu.io/",
+                "server_host": "k8s-f84"
+        },
+        {
+                "branch": "hotfix/release/v53/1813/7th-update",
+                "is_test_mod": "true",
+                "name": "k8s-f316",
+                "game_info": "http://gameinfo.k8s-f316.k8s.biubiubiu.io/",
+                "server_host": "k8s-f316"
+        },
+        {
+                "branch": "feature/v54/ciningji",
+                "is_test_mod": "true",
+                "name": "k8s-f306",
+                "game_info": "http://gameinfo.k8s-f306.k8s.biubiubiu.io/",
+                "server_host": "k8s-f306"
+        },
+        {
+                "branch": "hotfix/release/v53/1802/zhigou-41",
+                "is_test_mod": "true",
+                "name": "k8s-f301",
+                "game_info": "http://gameinfo.k8s-f301.k8s.biubiubiu.io/",
+                "server_host": "k8s-f301"
+        },
+        {
+                "branch": "feature/v54/chat-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f71",
+                "game_info": "http://gameinfo.k8s-f71.k8s.biubiubiu.io/",
+                "server_host": "k8s-f71"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1813/lqa-fix",
+                "is_test_mod": "true",
+                "name": "k8s-f97",
+                "game_info": "http://gameinfo.k8s-f97.k8s.biubiubiu.io/",
+                "server_host": "k8s-f97"
+        },
+        {
+                "branch": "feature/v54/crate-push",
+                "is_test_mod": "true",
+                "name": "k8s-f135",
+                "game_info": "http://gameinfo.k8s-f135.k8s.biubiubiu.io/",
+                "server_host": "k8s-f135"
+        },
+        {
+                "branch": "release/v53/0.53.15-1815",
+                "is_test_mod": "true",
+                "name": "k8s-f310",
+                "game_info": "http://gameinfo.k8s-f310.k8s.biubiubiu.io/",
+                "server_host": "k8s-f310"
+        },
+        {
+                "branch": "feature/v54/sbp-package",
+                "is_test_mod": "true",
+                "name": "k8s-f320",
+                "game_info": "http://gameinfo.k8s-f320.k8s.biubiubiu.io/",
+                "server_host": "k8s-f320"
+        },
+        {
+                "branch": "hotfix/release/v53/1812/mini-package",
+                "is_test_mod": "true",
+                "name": "k8s-f308",
+                "game_info": "http://gameinfo.k8s-f308.k8s.biubiubiu.io/",
+                "server_host": "k8s-f308"
+        },
+        {
+                "branch": "hotfix/release/v53/1808/match-xd",
+                "is_test_mod": "true",
+                "name": "k8s-f318",
+                "game_info": "http://gameinfo.k8s-f318.k8s.biubiubiu.io/",
+                "server_host": "k8s-f318"
+        },
+        {
+                "branch": "hotfix/release/v53/1815/binfen80",
+                "is_test_mod": "true",
+                "name": "k8s-f134",
+                "game_info": "http://gameinfo.k8s-f134.k8s.biubiubiu.io/",
+                "server_host": "k8s-f134"
+        },
+        {
+                "branch": "global/hotfix/release/v53/1814/1814-to-global1814",
+                "is_test_mod": "true",
+                "name": "k8s-f317",
+                "game_info": "http://gameinfo.k8s-f317.k8s.biubiubiu.io/",
+                "server_host": "k8s-f317"
+        },
+        {
+                "branch": "feature/v54/new-activity-view",
+                "is_test_mod": "true",
+                "name": "k8s-f88",
+                "game_info": "http://gameinfo.k8s-f88.k8s.biubiubiu.io/",
+                "server_host": "k8s-f88"
+        },
+        {
+                "branch": "hotfix/release/v53/1815/match-pack",
+                "is_test_mod": "true",
+                "name": "k8s-f221",
+                "game_info": "http://gameinfo.k8s-f221.k8s.biubiubiu.io/",
+                "server_host": "k8s-f221"
+        },
+        {
+                "branch": "feature/v54/new-patch-dev",
+                "is_test_mod": "true",
+                "name": "k8s-f230",
+                "game_info": "http://gameinfo.k8s-f230.k8s.biubiubiu.io/",
+                "server_host": "k8s-f230"
+        },
+        {
+                "branch": "global/feature/v54/global1820-to-develop",
+                "is_test_mod": "true",
+                "name": "k8s-f239",
+                "game_info": "http://gameinfo.k8s-f239.k8s.biubiubiu.io/",
+                "server_host": "k8s-f239"
+        },
+        {
+                "branch": "hotfix/release/v53/1820/rtc",
+                "is_test_mod": "true",
+                "name": "k8s-f312",
+                "game_info": "http://gameinfo.k8s-f312.k8s.biubiubiu.io/",
+                "server_host": "k8s-f312"
+        },
+        {
+                "branch": "hotfix/release/v53/1820/mini-package",
+                "is_test_mod": "true",
+                "name": "k8s-f304",
+                "game_info": "http://gameinfo.k8s-f304.k8s.biubiubiu.io/",
+                "server_host": "k8s-f304"
+        },
+        {
+                "branch": "feature/v54/async-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f314",
+                "game_info": "http://gameinfo.k8s-f314.k8s.biubiubiu.io/",
+                "server_host": "k8s-f314"
+        },
+        {
+                "branch": "hotfix/release/v53/1820/female-model",
+                "is_test_mod": "true",
+                "name": "k8s-f231",
+                "game_info": "http://gameinfo.k8s-f231.k8s.biubiubiu.io/",
+                "server_host": "k8s-f231"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f303",
+                "game_info": "http://gameinfo.k8s-f303.k8s.biubiubiu.io/",
+                "server_host": "k8s-f303"
+        },
+        {
+                "branch": "global/release/v53/0.53.20-1820",
+                "is_test_mod": "true",
+                "name": "k8s-f313",
+                "game_info": "http://gameinfo.k8s-f313.k8s.biubiubiu.io/",
+                "server_host": "k8s-f313"
+        },
+        {
+                "branch": "feature/v54/competitive-grade",
+                "is_test_mod": "true",
+                "name": "k8s-f305",
+                "game_info": "http://gameinfo.k8s-f305.k8s.biubiubiu.io/",
+                "server_host": "k8s-f305"
+        },
+        {
+                "branch": "feature/v54/championship",
+                "is_test_mod": "true",
+                "name": "k8s-f216",
+                "game_info": "http://gameinfo.k8s-f216.k8s.biubiubiu.io/",
+                "server_host": "k8s-f216"
+        },
+        {
+                "branch": "global/release/v53/0.53.20-1820",
+                "is_test_mod": "true",
+                "name": "k8s-f234",
+                "game_info": "http://gameinfo.k8s-f234.k8s.biubiubiu.io/",
+                "server_host": "k8s-f234"
+        },
+        {
+                "branch": "feature/v54/webserver-api",
+                "is_test_mod": "true",
+                "name": "k8s-f243",
+                "game_info": "http://gameinfo.k8s-f243.k8s.biubiubiu.io/",
+                "server_host": "k8s-f243"
+        },
+        {
+                "branch": "feature/v54/season-video-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f233",
+                "game_info": "http://gameinfo.k8s-f233.k8s.biubiubiu.io/",
+                "server_host": "k8s-f233"
+        },
+        {
+                "branch": "feature/v54/ggbond-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f311",
+                "game_info": "http://gameinfo.k8s-f311.k8s.biubiubiu.io/",
+                "server_host": "k8s-f311"
+        },
+        {
+                "branch": "hotfix/release/v53/1815/birthisland-mid-autumn-2024",
+                "is_test_mod": "true",
+                "name": "k8s-f248",
+                "game_info": "http://gameinfo.k8s-f248.k8s.biubiubiu.io/",
+                "server_host": "k8s-f248"
+        },
+        {
+                "branch": "release/v53/0.53.21-1821",
+                "is_test_mod": "true",
+                "name": "k8s-f224",
+                "game_info": "http://gameinfo.k8s-f224.k8s.biubiubiu.io/",
+                "server_host": "k8s-f224"
+        },
+        {
+                "branch": "hotfix/release/v53/1823/match-tips-close",
+                "is_test_mod": "true",
+                "name": "k8s-f315",
+                "game_info": "http://gameinfo.k8s-f315.k8s.biubiubiu.io/",
+                "server_host": "k8s-f315"
+        },
+        {
+                "branch": "global/feature/v54/xdsdk-6.21.1",
+                "is_test_mod": "true",
+                "name": "k8s-f214",
+                "game_info": "http://gameinfo.k8s-f214.k8s.biubiubiu.io/",
+                "server_host": "k8s-f214"
+        },
+        {
+                "branch": "global/feature/v54/async-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f209",
+                "game_info": "http://gameinfo.k8s-f209.k8s.biubiubiu.io/",
+                "server_host": "k8s-f209"
+        },
+        {
+                "branch": "release/v53/0.53.23-1823",
+                "is_test_mod": "true",
+                "name": "k8s-f213",
+                "game_info": "http://gameinfo.k8s-f213.k8s.biubiubiu.io/",
+                "server_host": "k8s-f213"
+        },
+        {
+                "branch": "feature/v54/defusal-mode-gameplay",
+                "is_test_mod": "true",
+                "name": "k8s-f205",
+                "game_info": "http://gameinfo.k8s-f205.k8s.biubiubiu.io/",
+                "server_host": "k8s-f205"
+        },
+        {
+                "branch": "release/v53/0.53.23-1823",
+                "is_test_mod": "true",
+                "name": "k8s-f236",
+                "game_info": "http://gameinfo.k8s-f236.k8s.biubiubiu.io/",
+                "server_host": "k8s-f236"
+        },
+        {
+                "branch": "global/release/v53/0.53.23-1823",
+                "is_test_mod": "true",
+                "name": "k8s-f244",
+                "game_info": "http://gameinfo.k8s-f244.k8s.biubiubiu.io/",
+                "server_host": "k8s-f244"
+        },
+        {
+                "branch": "release/v53/0.53.20-1820",
+                "is_test_mod": "true",
+                "name": "k8s-f302",
+                "game_info": "http://gameinfo.k8s-f302.k8s.biubiubiu.io/",
+                "server_host": "k8s-f302"
+        },
+        {
+                "branch": "feature/v54/activity-test",
+                "is_test_mod": "true",
+                "name": "k8s-f238",
+                "game_info": "http://gameinfo.k8s-f238.k8s.biubiubiu.io/",
+                "server_host": "k8s-f238"
+        },
+        {
+                "branch": "feature/v54/championship-develop",
+                "is_test_mod": "true",
+                "name": "k8s-f241",
+                "game_info": "http://gameinfo.k8s-f241.k8s.biubiubiu.io/",
+                "server_host": "k8s-f241"
+        },
+        {
+                "branch": "release/v54/0.54.1-1841",
+                "is_test_mod": "true",
+                "name": "k8s-f242",
+                "game_info": "http://gameinfo.k8s-f242.k8s.biubiubiu.io/",
+                "server_host": "k8s-f242"
+        },
+        {
+                "branch": "hotfix/release/v54/1841/1841-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f246",
+                "game_info": "http://gameinfo.k8s-f246.k8s.biubiubiu.io/",
+                "server_host": "k8s-f246"
+        },
+        {
+                "branch": "global/feature/v54/lock-area",
+                "is_test_mod": "true",
+                "name": "k8s-f249",
+                "game_info": "http://gameinfo.k8s-f249.k8s.biubiubiu.io/",
+                "server_host": "k8s-f249"
+        },
+        {
+                "branch": "hotfix/release/v54/1841/pc-screenshot-ban",
+                "is_test_mod": "true",
+                "name": "k8s-f240",
+                "game_info": "http://gameinfo.k8s-f240.k8s.biubiubiu.io/",
+                "server_host": "k8s-f240"
+        },
+        {
+                "branch": "release/v54/0.54.1-1841",
+                "is_test_mod": "true",
+                "name": "k8s-f245",
+                "game_info": "http://gameinfo.k8s-f245.k8s.biubiubiu.io/",
+                "server_host": "k8s-f245"
+        },
+        {
+                "branch": "release/v54/0.54.1-1841",
+                "is_test_mod": "true",
+                "name": "k8s-f247",
+                "game_info": "http://gameinfo.k8s-f247.k8s.biubiubiu.io/",
+                "server_host": "k8s-f247"
+        },
+        {
+                "branch": "hotfix/release/v54/1841/new-lua-profile",
+                "is_test_mod": "true",
+                "name": "k8s-f237",
+                "game_info": "http://gameinfo.k8s-f237.k8s.biubiubiu.io/",
+                "server_host": "k8s-f237"
+        },
+        {
+                "branch": "release/v54/0.54.2-1842",
+                "is_test_mod": "true",
+                "name": "k8s-f235",
+                "game_info": "http://gameinfo.k8s-f235.k8s.biubiubiu.io/",
+                "server_host": "k8s-f235"
+        },
+        {
+                "branch": "global/release/v54/0.54.9-1849",
+                "is_test_mod": "true",
+                "name": "k8s-f218",
+                "game_info": "http://gameinfo.k8s-f218.k8s.biubiubiu.io/",
+                "server_host": "k8s-f218"
+        },
+        {
+                "branch": "feature/v55/1v1-turnmode",
+                "is_test_mod": "true",
+                "name": "k8s-f434",
+                "game_info": "http://gameinfo.k8s-f434.k8s.biubiubiu.io/",
+                "server_host": "k8s-f434"
+        },
+        {
+                "branch": "global/hotfix/release/v55/1879/rainbow-box",
+                "is_test_mod": "true",
+                "name": "k8s-f424",
+                "game_info": "http://gameinfo.k8s-f424.k8s.biubiubiu.io/",
+                "server_host": "k8s-f424"
+        },
+        {
+                "branch": "hotfix/release/v55/1871/nailong-turntable",
+                "is_test_mod": "true",
+                "name": "k8s-f210",
+                "game_info": "http://gameinfo.k8s-f210.k8s.biubiubiu.io/",
+                "server_host": "k8s-f210"
+        },
+        {
+                "branch": "feature/v56/arm-test",
+                "is_test_mod": "true",
+                "name": "k8s-f800",
+                "game_info": "http://gameinfo.k8s-f800.k8s.biubiubiu.io/",
+                "server_host": "k8s-f800"
+        },
+        {
+                "branch": "golddash/feature/v58/golddash-boss-dada-mirror",
+                "is_test_mod": "true",
+                "name": "k8s-f488",
+                "game_info": "http://gameinfo.k8s-f488.k8s.biubiubiu.io/",
+                "server_host": "k8s-f488"
+        },
+        {
+                "branch": "feature/v58/butter-bear",
+                "is_test_mod": "true",
+                "name": "k8s-f600",
+                "game_info": "http://gameinfo.k8s-f600.k8s.biubiubiu.io/",
+                "server_host": "k8s-f600"
+        },
+        {
+                "branch": "golddash/feature/v58/preparation-suit",
+                "is_test_mod": "true",
+                "name": "k8s-f601",
+                "game_info": "http://gameinfo.k8s-f601.k8s.biubiubiu.io/",
+                "server_host": "k8s-f601"
+        },
+        {
+                "branch": "golddash/feature/v58/drop-rate",
+                "is_test_mod": "true",
+                "name": "k8s-f602",
+                "game_info": "http://gameinfo.k8s-f602.k8s.biubiubiu.io/",
+                "server_host": "k8s-f602"
+        },
+        {
+                "branch": "global/release/v58.5/0.58.35-2135",
+                "is_test_mod": "true",
+                "name": "k8s-f533",
+                "game_info": "http://gameinfo.k8s-f533.k8s.biubiubiu.io/",
+                "server_host": "k8s-f533"
+        },
+        {
+                "branch": "hotfix/release/v58.5/2150/pet-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f459",
+                "game_info": "http://gameinfo.k8s-f459.k8s.biubiubiu.io/",
+                "server_host": "k8s-f459"
+        },
+        {
+                "branch": "golddash/feature/v59/joker-duck-system",
+                "is_test_mod": "true",
+                "name": "k8s-f431",
+                "game_info": "http://gameinfo.k8s-f431.k8s.biubiubiu.io/",
+                "server_host": "k8s-f431"
+        },
+        {
+                "branch": "global/feature/v59/hw-ss20",
+                "is_test_mod": "true",
+                "name": "k8s-f812",
+                "game_info": "http://gameinfo.k8s-f812.k8s.biubiubiu.io/",
+                "server_host": "k8s-f812"
+        },
+        {
+                "branch": "hotfix/release/v59/2183/western-shadow",
+                "is_test_mod": "true",
+                "name": "k8s-f465",
+                "game_info": "http://gameinfo.k8s-f465.k8s.biubiubiu.io/",
+                "server_host": "k8s-f465"
+        },
+        {
+                "branch": "global/release/v58.5/0.58.41-2141",
+                "is_test_mod": "true",
+                "name": "k8s-f413",
+                "game_info": "http://gameinfo.k8s-f413.k8s.biubiubiu.io/",
+                "server_host": "k8s-f413"
+        },
+        {
+                "branch": "feature/v60/ggbond-newyear",
+                "is_test_mod": "true",
+                "name": "k8s-f404",
+                "game_info": "http://gameinfo.k8s-f404.k8s.biubiubiu.io/",
+                "server_host": "k8s-f404"
+        },
+        {
+                "branch": "hotfix/release/v59/2184/war-report",
+                "is_test_mod": "true",
+                "name": "k8s-f437",
+                "game_info": "http://gameinfo.k8s-f437.k8s.biubiubiu.io/",
+                "server_host": "k8s-f437"
+        },
+        {
+                "branch": "feature/v60/marke",
+                "is_test_mod": "true",
+                "name": "k8s-f813",
+                "game_info": "http://gameinfo.k8s-f813.k8s.biubiubiu.io/",
+                "server_host": "k8s-f813"
+        },
+        {
+                "branch": "hotfix/release/v59/2195/compensation",
+                "is_test_mod": "true",
+                "name": "k8s-f455",
+                "game_info": "http://gameinfo.k8s-f455.k8s.biubiubiu.io/",
+                "server_host": "k8s-f455"
+        },
+        {
+                "branch": "hotfix/feature/v60/prefab-tool-1",
+                "is_test_mod": "true",
+                "name": "k8s-f536",
+                "game_info": "http://gameinfo.k8s-f536.k8s.biubiubiu.io/",
+                "server_host": "k8s-f536"
+        },
+        {
+                "branch": "hotfix/release/v59/2195/duobao2-settlement-reward",
+                "is_test_mod": "true",
+                "name": "k8s-f403",
+                "game_info": "http://gameinfo.k8s-f403.k8s.biubiubiu.io/",
+                "server_host": "k8s-f403"
+        },
+        {
+                "branch": "feature/v60/ggbond-christmas",
+                "is_test_mod": "true",
+                "name": "k8s-f538",
+                "game_info": "http://gameinfo.k8s-f538.k8s.biubiubiu.io/",
+                "server_host": "k8s-f538"
+        },
+        {
+                "branch": "golddash/feature/v60/party-show",
+                "is_test_mod": "true",
+                "name": "k8s-f445",
+                "game_info": "http://gameinfo.k8s-f445.k8s.biubiubiu.io/",
+                "server_host": "k8s-f445"
+        },
+        {
+                "branch": "global/release/v59/0.59.18-2198",
+                "is_test_mod": "true",
+                "name": "k8s-f200",
+                "game_info": "http://gameinfo.k8s-f200.k8s.biubiubiu.io/",
+                "server_host": "k8s-f200"
+        },
+        {
+                "branch": "feature/v60/cpu-perform",
+                "is_test_mod": "true",
+                "name": "k8s-f457",
+                "game_info": "http://gameinfo.k8s-f457.k8s.biubiubiu.io/",
+                "server_host": "k8s-f457"
+        },
+        {
+                "branch": "feature/v60/activity-skill",
+                "is_test_mod": "true",
+                "name": "k8s-f807",
+                "game_info": "http://gameinfo.k8s-f807.k8s.biubiubiu.io/",
+                "server_host": "k8s-f807"
+        },
+        {
+                "branch": "golddash/feature/v60/party-show-pet",
+                "is_test_mod": "true",
+                "name": "k8s-f212",
+                "game_info": "http://gameinfo.k8s-f212.k8s.biubiubiu.io/",
+                "server_host": "k8s-f212"
+        },
+        {
+                "branch": "feature/v61/subpackage-skin",
+                "is_test_mod": "true",
+                "name": "k8s-f473",
+                "game_info": "http://gameinfo.k8s-f473.k8s.biubiubiu.io/",
+                "server_host": "k8s-f473"
+        },
+        {
+                "branch": "feature/v60/recorder-sdk",
+                "is_test_mod": "true",
+                "name": "k8s-f534",
+                "game_info": "http://gameinfo.k8s-f534.k8s.biubiubiu.io/",
+                "server_host": "k8s-f534"
+        },
+        {
+                "branch": "hotfix/release/v60/2251/2198-merge-to-2251",
+                "is_test_mod": "true",
+                "name": "k8s-f220",
+                "game_info": "http://gameinfo.k8s-f220.k8s.biubiubiu.io/",
+                "server_host": "k8s-f220"
+        },
+        {
+                "branch": "hotfix/release/v60/2251/safe-check",
+                "is_test_mod": "true",
+                "name": "k8s-f467",
+                "game_info": "http://gameinfo.k8s-f467.k8s.biubiubiu.io/",
+                "server_host": "k8s-f467"
+        },
+        {
+                "branch": "feature/v61/subpackage-skin",
+                "is_test_mod": "true",
+                "name": "k8s-f474",
+                "game_info": "http://gameinfo.k8s-f474.k8s.biubiubiu.io/",
+                "server_host": "k8s-f474"
+        },
+        {
+                "branch": "golddash/feature/v61/forest-season-level",
+                "is_test_mod": "true",
+                "name": "k8s-f523",
+                "game_info": "http://gameinfo.k8s-f523.k8s.biubiubiu.io/",
+                "server_host": "k8s-f523"
+        },
+        {
+                "branch": "feature/v60/jd-cooperation",
+                "is_test_mod": "true",
+                "name": "k8s-f450",
+                "game_info": "http://gameinfo.k8s-f450.k8s.biubiubiu.io/",
+                "server_host": "k8s-f450"
+        },
+        {
+                "branch": "release/v60/0.60.2-2252",
+                "is_test_mod": "true",
+                "name": "k8s-f498",
+                "game_info": "http://gameinfo.k8s-f498.k8s.biubiubiu.io/",
+                "server_host": "k8s-f498"
+        },
+        {
+                "branch": "release/v60/0.60.2-2252",
+                "is_test_mod": "true",
+                "name": "k8s-f489",
+                "game_info": "http://gameinfo.k8s-f489.k8s.biubiubiu.io/",
+                "server_host": "k8s-f489"
+        },
+        {
+                "branch": "release/v60/0.60.2-2252",
+                "is_test_mod": "true",
+                "name": "k8s-f472",
+                "game_info": "http://gameinfo.k8s-f472.k8s.biubiubiu.io/",
+                "server_host": "k8s-f472"
+        },
+        {
+                "branch": "release/v59/0.59.18-2198",
+                "is_test_mod": "true",
+                "name": "k8s-f461",
+                "game_info": "http://gameinfo.k8s-f461.k8s.biubiubiu.io/",
+                "server_host": "k8s-f461"
+        },
+        {
+                "branch": "release/v60/0.60.3-2253",
+                "is_test_mod": "true",
+                "name": "k8s-f487",
+                "game_info": "http://gameinfo.k8s-f487.k8s.biubiubiu.io/",
+                "server_host": "k8s-f487"
+        },
+        {
+                "branch": "feature/v60/animscript-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f447",
+                "game_info": "http://gameinfo.k8s-f447.k8s.biubiubiu.io/",
+                "server_host": "k8s-f447"
+        },
+        {
+                "branch": "release/v60/0.60.4-2254",
+                "is_test_mod": "true",
+                "name": "k8s-f452",
+                "game_info": "http://gameinfo.k8s-f452.k8s.biubiubiu.io/",
+                "server_host": "k8s-f452"
+        },
+        {
+                "branch": "hotfix/release/v60/2253/wallfix",
+                "is_test_mod": "true",
+                "name": "k8s-f528",
+                "game_info": "http://gameinfo.k8s-f528.k8s.biubiubiu.io/",
+                "server_host": "k8s-f528"
+        },
+        {
+                "branch": "hotfix/release/v60/gameplay-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f441",
+                "game_info": "http://gameinfo.k8s-f441.k8s.biubiubiu.io/",
+                "server_host": "k8s-f441"
+        },
+        {
+                "branch": "release/v60/0.60.4-2254",
+                "is_test_mod": "true",
+                "name": "k8s-f517",
+                "game_info": "http://gameinfo.k8s-f517.k8s.biubiubiu.io/",
+                "server_host": "k8s-f517"
+        },
+        {
+                "branch": "feature/v60/ggbond2",
+                "is_test_mod": "true",
+                "name": "k8s-f493",
+                "game_info": "http://gameinfo.k8s-f493.k8s.biubiubiu.io/",
+                "server_host": "k8s-f493"
+        },
+        {
+                "branch": "golddash/feature/v60/shield-skill01",
+                "is_test_mod": "true",
+                "name": "k8s-f423",
+                "game_info": "http://gameinfo.k8s-f423.k8s.biubiubiu.io/",
+                "server_host": "k8s-f423"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/minimap-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f514",
+                "game_info": "http://gameinfo.k8s-f514.k8s.biubiubiu.io/",
+                "server_host": "k8s-f514"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/0.60.4-2254-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f425",
+                "game_info": "http://gameinfo.k8s-f425.k8s.biubiubiu.io/",
+                "server_host": "k8s-f425"
+        },
+        {
+                "branch": "feature/v61/mythsuit-upgrade",
+                "is_test_mod": "true",
+                "name": "k8s-f500",
+                "game_info": "http://gameinfo.k8s-f500.k8s.biubiubiu.io/",
+                "server_host": "k8s-f500"
+        },
+        {
+                "branch": "global/hotfix/release/v60/2251/hw-season21",
+                "is_test_mod": "true",
+                "name": "k8s-f476",
+                "game_info": "http://gameinfo.k8s-f476.k8s.biubiubiu.io/",
+                "server_host": "k8s-f476"
+        },
+        {
+                "branch": "global/hotfix/release/v60/2251/hw-season21",
+                "is_test_mod": "true",
+                "name": "k8s-f409",
+                "game_info": "http://gameinfo.k8s-f409.k8s.biubiubiu.io/",
+                "server_host": "k8s-f409"
+        },
+        {
+                "branch": "feature/v61/lua-update",
+                "is_test_mod": "true",
+                "name": "k8s-f495",
+                "game_info": "http://gameinfo.k8s-f495.k8s.biubiubiu.io/",
+                "server_host": "k8s-f495"
+        },
+        {
+                "branch": "feature/v61/stain-skin-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f530",
+                "game_info": "http://gameinfo.k8s-f530.k8s.biubiubiu.io/",
+                "server_host": "k8s-f530"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/high-frame",
+                "is_test_mod": "true",
+                "name": "k8s-f202",
+                "game_info": "http://gameinfo.k8s-f202.k8s.biubiubiu.io/",
+                "server_host": "k8s-f202"
+        },
+        {
+                "branch": "feature/v61/upgrade-server-log",
+                "is_test_mod": "true",
+                "name": "k8s-f433",
+                "game_info": "http://gameinfo.k8s-f433.k8s.biubiubiu.io/",
+                "server_host": "k8s-f433"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/fix-animator",
+                "is_test_mod": "true",
+                "name": "k8s-f411",
+                "game_info": "http://gameinfo.k8s-f411.k8s.biubiubiu.io/",
+                "server_host": "k8s-f411"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/season-time-formal",
+                "is_test_mod": "true",
+                "name": "k8s-f451",
+                "game_info": "http://gameinfo.k8s-f451.k8s.biubiubiu.io/",
+                "server_host": "k8s-f451"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f412",
+                "game_info": "http://gameinfo.k8s-f412.k8s.biubiubiu.io/",
+                "server_host": "k8s-f412"
+        },
+        {
+                "branch": "feature/v61/dream-action",
+                "is_test_mod": "true",
+                "name": "k8s-f492",
+                "game_info": "http://gameinfo.k8s-f492.k8s.biubiubiu.io/",
+                "server_host": "k8s-f492"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.5-2255-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f513",
+                "game_info": "http://gameinfo.k8s-f513.k8s.biubiubiu.io/",
+                "server_host": "k8s-f513"
+        },
+        {
+                "branch": "global/release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f525",
+                "game_info": "http://gameinfo.k8s-f525.k8s.biubiubiu.io/",
+                "server_host": "k8s-f525"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/weapon",
+                "is_test_mod": "true",
+                "name": "k8s-f527",
+                "game_info": "http://gameinfo.k8s-f527.k8s.biubiubiu.io/",
+                "server_host": "k8s-f527"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/loadout",
+                "is_test_mod": "true",
+                "name": "k8s-f526",
+                "game_info": "http://gameinfo.k8s-f526.k8s.biubiubiu.io/",
+                "server_host": "k8s-f526"
+        },
+        {
+                "branch": "feature/v61/ai-test",
+                "is_test_mod": "true",
+                "name": "k8s-f458",
+                "game_info": "http://gameinfo.k8s-f458.k8s.biubiubiu.io/",
+                "server_host": "k8s-f458"
+        },
+        {
+                "branch": "feature/v61/kamen-rider",
+                "is_test_mod": "true",
+                "name": "k8s-f499",
+                "game_info": "http://gameinfo.k8s-f499.k8s.biubiubiu.io/",
+                "server_host": "k8s-f499"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/mixgift4",
+                "is_test_mod": "true",
+                "name": "k8s-f496",
+                "game_info": "http://gameinfo.k8s-f496.k8s.biubiubiu.io/",
+                "server_host": "k8s-f496"
+        },
+        {
+                "branch": "hotfix/release/v60/2256/ai-test-2256",
+                "is_test_mod": "true",
+                "name": "k8s-f227",
+                "game_info": "http://gameinfo.k8s-f227.k8s.biubiubiu.io/",
+                "server_host": "k8s-f227"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.5-2255-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f535",
+                "game_info": "http://gameinfo.k8s-f535.k8s.biubiubiu.io/",
+                "server_host": "k8s-f535"
+        },
+        {
+                "branch": "hotfix/release/v60/2251/ui-adapt",
+                "is_test_mod": "true",
+                "name": "k8s-f494",
+                "game_info": "http://gameinfo.k8s-f494.k8s.biubiubiu.io/",
+                "server_host": "k8s-f494"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f402",
+                "game_info": "http://gameinfo.k8s-f402.k8s.biubiubiu.io/",
+                "server_host": "k8s-f402"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/armaments-ticket",
+                "is_test_mod": "true",
+                "name": "k8s-f529",
+                "game_info": "http://gameinfo.k8s-f529.k8s.biubiubiu.io/",
+                "server_host": "k8s-f529"
+        },
+        {
+                "branch": "release/v59/0.59.18-2198",
+                "is_test_mod": "true",
+                "name": "k8s-f401",
+                "game_info": "http://gameinfo.k8s-f401.k8s.biubiubiu.io/",
+                "server_host": "k8s-f401"
+        },
+        {
+                "branch": "release/v60/0.60.6-2256",
+                "is_test_mod": "true",
+                "name": "k8s-f805",
+                "game_info": "http://gameinfo.k8s-f805.k8s.biubiubiu.io/",
+                "server_host": "k8s-f805"
+        },
+        {
+                "branch": "global/release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f436",
+                "game_info": "http://gameinfo.k8s-f436.k8s.biubiubiu.io/",
+                "server_host": "k8s-f436"
+        },
+        {
+                "branch": "feature/v61/gunstock",
+                "is_test_mod": "true",
+                "name": "k8s-f490",
+                "game_info": "http://gameinfo.k8s-f490.k8s.biubiubiu.io/",
+                "server_host": "k8s-f490"
+        },
+        {
+                "branch": "hotfix/release/v60/2253/blue-v",
+                "is_test_mod": "true",
+                "name": "k8s-f521",
+                "game_info": "http://gameinfo.k8s-f521.k8s.biubiubiu.io/",
+                "server_host": "k8s-f521"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/loadout",
+                "is_test_mod": "true",
+                "name": "k8s-f406",
+                "game_info": "http://gameinfo.k8s-f406.k8s.biubiubiu.io/",
+                "server_host": "k8s-f406"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/mixgift4",
+                "is_test_mod": "true",
+                "name": "k8s-f480",
+                "game_info": "http://gameinfo.k8s-f480.k8s.biubiubiu.io/",
+                "server_host": "k8s-f480"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.5-2255-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f522",
+                "game_info": "http://gameinfo.k8s-f522.k8s.biubiubiu.io/",
+                "server_host": "k8s-f522"
+        },
+        {
+                "branch": "release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f415",
+                "game_info": "http://gameinfo.k8s-f415.k8s.biubiubiu.io/",
+                "server_host": "k8s-f415"
+        },
+        {
+                "branch": "feature/v60/fashion-batch-optimize-auto-perf",
+                "is_test_mod": "true",
+                "name": "k8s-f453",
+                "game_info": "http://gameinfo.k8s-f453.k8s.biubiubiu.io/",
+                "server_host": "k8s-f453"
+        },
+        {
+                "branch": "feature/v60/auto-perf",
+                "is_test_mod": "true",
+                "name": "k8s-f446",
+                "game_info": "http://gameinfo.k8s-f446.k8s.biubiubiu.io/",
+                "server_host": "k8s-f446"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/high-frame",
+                "is_test_mod": "true",
+                "name": "k8s-f515",
+                "game_info": "http://gameinfo.k8s-f515.k8s.biubiubiu.io/",
+                "server_host": "k8s-f515"
+        },
+        {
+                "branch": "hotfix/release/v59/2198/anti-cheat",
+                "is_test_mod": "true",
+                "name": "k8s-f203",
+                "game_info": "http://gameinfo.k8s-f203.k8s.biubiubiu.io/",
+                "server_host": "k8s-f203"
+        },
+        {
+                "branch": "feature/v60/binfen88",
+                "is_test_mod": "true",
+                "name": "k8s-f497",
+                "game_info": "http://gameinfo.k8s-f497.k8s.biubiubiu.io/",
+                "server_host": "k8s-f497"
+        },
+        {
+                "branch": "release/v60/0.60.6-2256",
+                "is_test_mod": "true",
+                "name": "k8s-f463",
+                "game_info": "http://gameinfo.k8s-f463.k8s.biubiubiu.io/",
+                "server_host": "k8s-f463"
+        },
+        {
+                "branch": "hotfix/release/v60/2256/blue-v",
+                "is_test_mod": "true",
+                "name": "k8s-f408",
+                "game_info": "http://gameinfo.k8s-f408.k8s.biubiubiu.io/",
+                "server_host": "k8s-f408"
+        },
+        {
+                "branch": "release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f491",
+                "game_info": "http://gameinfo.k8s-f491.k8s.biubiubiu.io/",
+                "server_host": "k8s-f491"
+        },
+        {
+                "branch": "feature/v61/fashion-part-asset",
+                "is_test_mod": "true",
+                "name": "k8s-f426",
+                "game_info": "http://gameinfo.k8s-f426.k8s.biubiubiu.io/",
+                "server_host": "k8s-f426"
+        },
+        {
+                "branch": "release/v59/0.59.18-2198",
+                "is_test_mod": "true",
+                "name": "k8s-f501",
+                "game_info": "http://gameinfo.k8s-f501.k8s.biubiubiu.io/",
+                "server_host": "k8s-f501"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f229",
+                "game_info": "http://gameinfo.k8s-f229.k8s.biubiubiu.io/",
+                "server_host": "k8s-f229"
+        },
+        {
+                "branch": "feature/v60/match-server",
+                "is_test_mod": "true",
+                "name": "k8s-f223",
+                "game_info": "http://gameinfo.k8s-f223.k8s.biubiubiu.io/",
+                "server_host": "k8s-f223"
+        },
+        {
+                "branch": "release/v60/0.60.6-2256",
+                "is_test_mod": "true",
+                "name": "k8s-f226",
+                "game_info": "http://gameinfo.k8s-f226.k8s.biubiubiu.io/",
+                "server_host": "k8s-f226"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/quality-test",
+                "is_test_mod": "true",
+                "name": "k8s-f475",
+                "game_info": "http://gameinfo.k8s-f475.k8s.biubiubiu.io/",
+                "server_host": "k8s-f475"
+        },
+        {
+                "branch": "release/v60/0.60.6-2256",
+                "is_test_mod": "true",
+                "name": "k8s-f438",
+                "game_info": "http://gameinfo.k8s-f438.k8s.biubiubiu.io/",
+                "server_host": "k8s-f438"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/activity1",
+                "is_test_mod": "true",
+                "name": "k8s-f532",
+                "game_info": "http://gameinfo.k8s-f532.k8s.biubiubiu.io/",
+                "server_host": "k8s-f532"
+        },
+        {
+                "branch": "global/release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f518",
+                "game_info": "http://gameinfo.k8s-f518.k8s.biubiubiu.io/",
+                "server_host": "k8s-f518"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/tkv-elimination",
+                "is_test_mod": "true",
+                "name": "k8s-f811",
+                "game_info": "http://gameinfo.k8s-f811.k8s.biubiubiu.io/",
+                "server_host": "k8s-f811"
+        },
+        {
+                "branch": "global/release/v60/0.60.5-2255",
+                "is_test_mod": "true",
+                "name": "k8s-f470",
+                "game_info": "http://gameinfo.k8s-f470.k8s.biubiubiu.io/",
+                "server_host": "k8s-f470"
+        },
+        {
+                "branch": "release/v60/0.60.7-2257",
+                "is_test_mod": "true",
+                "name": "k8s-f539",
+                "game_info": "http://gameinfo.k8s-f539.k8s.biubiubiu.io/",
+                "server_host": "k8s-f539"
+        },
+        {
+                "branch": "release/v60/0.60.7-2257",
+                "is_test_mod": "true",
+                "name": "k8s-f208",
+                "game_info": "http://gameinfo.k8s-f208.k8s.biubiubiu.io/",
+                "server_host": "k8s-f208"
+        },
+        {
+                "branch": "feature/v61/season-ss24",
+                "is_test_mod": "true",
+                "name": "k8s-f440",
+                "game_info": "http://gameinfo.k8s-f440.k8s.biubiubiu.io/",
+                "server_host": "k8s-f440"
+        },
+        {
+                "branch": "feature/v61/respawn-adjust",
+                "is_test_mod": "true",
+                "name": "k8s-f520",
+                "game_info": "http://gameinfo.k8s-f520.k8s.biubiubiu.io/",
+                "server_host": "k8s-f520"
+        },
+        {
+                "branch": "feature/v61/energysmg-chip",
+                "is_test_mod": "true",
+                "name": "k8s-f462",
+                "game_info": "http://gameinfo.k8s-f462.k8s.biubiubiu.io/",
+                "server_host": "k8s-f462"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.7-2257-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f222",
+                "game_info": "http://gameinfo.k8s-f222.k8s.biubiubiu.io/",
+                "server_host": "k8s-f222"
+        },
+        {
+                "branch": "hotfix/release/v60/2256/lottery",
+                "is_test_mod": "true",
+                "name": "k8s-f479",
+                "game_info": "http://gameinfo.k8s-f479.k8s.biubiubiu.io/",
+                "server_host": "k8s-f479"
+        },
+        {
+                "branch": "release/v60/0.60.7-2257",
+                "is_test_mod": "true",
+                "name": "k8s-f469",
+                "game_info": "http://gameinfo.k8s-f469.k8s.biubiubiu.io/",
+                "server_host": "k8s-f469"
+        },
+        {
+                "branch": "hotfix/release/v60/2256/remnant-config",
+                "is_test_mod": "true",
+                "name": "k8s-f477",
+                "game_info": "http://gameinfo.k8s-f477.k8s.biubiubiu.io/",
+                "server_host": "k8s-f477"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/tkv-elimination",
+                "is_test_mod": "true",
+                "name": "k8s-f429",
+                "game_info": "http://gameinfo.k8s-f429.k8s.biubiubiu.io/",
+                "server_host": "k8s-f429"
+        },
+        {
+                "branch": "release/v59/0.59.19-2199",
+                "is_test_mod": "true",
+                "name": "k8s-f507",
+                "game_info": "http://gameinfo.k8s-f507.k8s.biubiubiu.io/",
+                "server_host": "k8s-f507"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/activity2",
+                "is_test_mod": "true",
+                "name": "k8s-f531",
+                "game_info": "http://gameinfo.k8s-f531.k8s.biubiubiu.io/",
+                "server_host": "k8s-f531"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-novicetask",
+                "is_test_mod": "true",
+                "name": "k8s-f478",
+                "game_info": "http://gameinfo.k8s-f478.k8s.biubiubiu.io/",
+                "server_host": "k8s-f478"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-novicetask",
+                "is_test_mod": "true",
+                "name": "k8s-f435",
+                "game_info": "http://gameinfo.k8s-f435.k8s.biubiubiu.io/",
+                "server_host": "k8s-f435"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.7-2257-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f505",
+                "game_info": "http://gameinfo.k8s-f505.k8s.biubiubiu.io/",
+                "server_host": "k8s-f505"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f511",
+                "game_info": "http://gameinfo.k8s-f511.k8s.biubiubiu.io/",
+                "server_host": "k8s-f511"
+        },
+        {
+                "branch": "feature/v61/langlangshan",
+                "is_test_mod": "true",
+                "name": "k8s-f432",
+                "game_info": "http://gameinfo.k8s-f432.k8s.biubiubiu.io/",
+                "server_host": "k8s-f432"
+        },
+        {
+                "branch": "feature/v61/respawn-adjust",
+                "is_test_mod": "true",
+                "name": "k8s-f509",
+                "game_info": "http://gameinfo.k8s-f509.k8s.biubiubiu.io/",
+                "server_host": "k8s-f509"
+        },
+        {
+                "branch": "feature/v60/punch-adjust",
+                "is_test_mod": "true",
+                "name": "k8s-f504",
+                "game_info": "http://gameinfo.k8s-f504.k8s.biubiubiu.io/",
+                "server_host": "k8s-f504"
+        },
+        {
+                "branch": "hotfix/release/v60/2258/shuzhi-weapon",
+                "is_test_mod": "true",
+                "name": "k8s-f519",
+                "game_info": "http://gameinfo.k8s-f519.k8s.biubiubiu.io/",
+                "server_host": "k8s-f519"
+        },
+        {
+                "branch": "hotfix/release/v60/2258/shuzhi-weapon",
+                "is_test_mod": "true",
+                "name": "k8s-f468",
+                "game_info": "http://gameinfo.k8s-f468.k8s.biubiubiu.io/",
+                "server_host": "k8s-f468"
+        },
+        {
+                "branch": "feature/v61/match-ai",
+                "is_test_mod": "true",
+                "name": "k8s-f400",
+                "game_info": "http://gameinfo.k8s-f400.k8s.biubiubiu.io/",
+                "server_host": "k8s-f400"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f486",
+                "game_info": "http://gameinfo.k8s-f486.k8s.biubiubiu.io/",
+                "server_host": "k8s-f486"
+        },
+        {
+                "branch": "feature/v61/match-rank",
+                "is_test_mod": "true",
+                "name": "k8s-f417",
+                "game_info": "http://gameinfo.k8s-f417.k8s.biubiubiu.io/",
+                "server_host": "k8s-f417"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/high-frame",
+                "is_test_mod": "true",
+                "name": "k8s-f427",
+                "game_info": "http://gameinfo.k8s-f427.k8s.biubiubiu.io/",
+                "server_host": "k8s-f427"
+        },
+        {
+                "branch": "global/release/v60/0.60.7-2257",
+                "is_test_mod": "true",
+                "name": "k8s-f442",
+                "game_info": "http://gameinfo.k8s-f442.k8s.biubiubiu.io/",
+                "server_host": "k8s-f442"
+        },
+        {
+                "branch": "feature/v60/ggbond2-zhuanpan",
+                "is_test_mod": "true",
+                "name": "k8s-f206",
+                "game_info": "http://gameinfo.k8s-f206.k8s.biubiubiu.io/",
+                "server_host": "k8s-f206"
+        },
+        {
+                "branch": "hotfix/release/v60/2251/ui-adapt",
+                "is_test_mod": "true",
+                "name": "k8s-f204",
+                "game_info": "http://gameinfo.k8s-f204.k8s.biubiubiu.io/",
+                "server_host": "k8s-f204"
+        },
+        {
+                "branch": "global/release/v60/0.60.7-2257",
+                "is_test_mod": "true",
+                "name": "k8s-f471",
+                "game_info": "http://gameinfo.k8s-f471.k8s.biubiubiu.io/",
+                "server_host": "k8s-f471"
+        },
+        {
+                "branch": "hotfix/release/v60/2254/tkv-elimination",
+                "is_test_mod": "true",
+                "name": "k8s-f510",
+                "game_info": "http://gameinfo.k8s-f510.k8s.biubiubiu.io/",
+                "server_host": "k8s-f510"
+        },
+        {
+                "branch": "hotfix/release/v60/2252/crazyweekend",
+                "is_test_mod": "true",
+                "name": "k8s-f410",
+                "game_info": "http://gameinfo.k8s-f410.k8s.biubiubiu.io/",
+                "server_host": "k8s-f410"
+        },
+        {
+                "branch": "golddash/feature/v61/scouting-ai",
+                "is_test_mod": "true",
+                "name": "k8s-f407",
+                "game_info": "http://gameinfo.k8s-f407.k8s.biubiubiu.io/",
+                "server_host": "k8s-f407"
+        },
+        {
+                "branch": "feature/v60/config-from-rust-2",
+                "is_test_mod": "true",
+                "name": "k8s-f810",
+                "game_info": "http://gameinfo.k8s-f810.k8s.biubiubiu.io/",
+                "server_host": "k8s-f810"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f537",
+                "game_info": "http://gameinfo.k8s-f537.k8s.biubiubiu.io/",
+                "server_host": "k8s-f537"
+        },
+        {
+                "branch": "feature/v61/sentry-sdk",
+                "is_test_mod": "true",
+                "name": "k8s-f449",
+                "game_info": "http://gameinfo.k8s-f449.k8s.biubiubiu.io/",
+                "server_host": "k8s-f449"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f506",
+                "game_info": "http://gameinfo.k8s-f506.k8s.biubiubiu.io/",
+                "server_host": "k8s-f506"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.7-2257-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f814",
+                "game_info": "http://gameinfo.k8s-f814.k8s.biubiubiu.io/",
+                "server_host": "k8s-f814"
+        },
+        {
+                "branch": "feature/v61/team-up",
+                "is_test_mod": "true",
+                "name": "k8s-f421",
+                "game_info": "http://gameinfo.k8s-f421.k8s.biubiubiu.io/",
+                "server_host": "k8s-f421"
+        },
+        {
+                "branch": "feature/v60/match-server",
+                "is_test_mod": "true",
+                "name": "k8s-f516",
+                "game_info": "http://gameinfo.k8s-f516.k8s.biubiubiu.io/",
+                "server_host": "k8s-f516"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/loadout",
+                "is_test_mod": "true",
+                "name": "k8s-f207",
+                "game_info": "http://gameinfo.k8s-f207.k8s.biubiubiu.io/",
+                "server_host": "k8s-f207"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f430",
+                "game_info": "http://gameinfo.k8s-f430.k8s.biubiubiu.io/",
+                "server_host": "k8s-f430"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/loadout",
+                "is_test_mod": "true",
+                "name": "k8s-f503",
+                "game_info": "http://gameinfo.k8s-f503.k8s.biubiubiu.io/",
+                "server_host": "k8s-f503"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-opt",
+                "is_test_mod": "true",
+                "name": "k8s-f219",
+                "game_info": "http://gameinfo.k8s-f219.k8s.biubiubiu.io/",
+                "server_host": "k8s-f219"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f456",
+                "game_info": "http://gameinfo.k8s-f456.k8s.biubiubiu.io/",
+                "server_host": "k8s-f456"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258-match",
+                "is_test_mod": "true",
+                "name": "k8s-f420",
+                "game_info": "http://gameinfo.k8s-f420.k8s.biubiubiu.io/",
+                "server_host": "k8s-f420"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f444",
+                "game_info": "http://gameinfo.k8s-f444.k8s.biubiubiu.io/",
+                "server_host": "k8s-f444"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f464",
+                "game_info": "http://gameinfo.k8s-f464.k8s.biubiubiu.io/",
+                "server_host": "k8s-f464"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f422",
+                "game_info": "http://gameinfo.k8s-f422.k8s.biubiubiu.io/",
+                "server_host": "k8s-f422"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258-match",
+                "is_test_mod": "true",
+                "name": "k8s-f416",
+                "game_info": "http://gameinfo.k8s-f416.k8s.biubiubiu.io/",
+                "server_host": "k8s-f416"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f419",
+                "game_info": "http://gameinfo.k8s-f419.k8s.biubiubiu.io/",
+                "server_host": "k8s-f419"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f217",
+                "game_info": "http://gameinfo.k8s-f217.k8s.biubiubiu.io/",
+                "server_host": "k8s-f217"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f211",
+                "game_info": "http://gameinfo.k8s-f211.k8s.biubiubiu.io/",
+                "server_host": "k8s-f211"
+        },
+        {
+                "branch": "hotfix/release/v60/2251/ggbond2-activity",
+                "is_test_mod": "true",
+                "name": "k8s-f414",
+                "game_info": "http://gameinfo.k8s-f414.k8s.biubiubiu.io/",
+                "server_host": "k8s-f414"
+        },
+        {
+                "branch": "feature/v61/stain-skin-optimize",
+                "is_test_mod": "true",
+                "name": "k8s-f502",
+                "game_info": "http://gameinfo.k8s-f502.k8s.biubiubiu.io/",
+                "server_host": "k8s-f502"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.7-2257-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f809",
+                "game_info": "http://gameinfo.k8s-f809.k8s.biubiubiu.io/",
+                "server_host": "k8s-f809"
+        },
+        {
+                "branch": "release/v59/0.59.16-2196",
+                "is_test_mod": "true",
+                "name": "k8s-f405",
+                "game_info": "http://gameinfo.k8s-f405.k8s.biubiubiu.io/",
+                "server_host": "k8s-f405"
+        },
+        {
+                "branch": "release/v59/0.59.18-2198",
+                "is_test_mod": "true",
+                "name": "k8s-f484",
+                "game_info": "http://gameinfo.k8s-f484.k8s.biubiubiu.io/",
+                "server_host": "k8s-f484"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/beastcamp-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f215",
+                "game_info": "http://gameinfo.k8s-f215.k8s.biubiubiu.io/",
+                "server_host": "k8s-f215"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f418",
+                "game_info": "http://gameinfo.k8s-f418.k8s.biubiubiu.io/",
+                "server_host": "k8s-f418"
+        },
+        {
+                "branch": "feature/v61/go-go-party",
+                "is_test_mod": "true",
+                "name": "k8s-f448",
+                "game_info": "http://gameinfo.k8s-f448.k8s.biubiubiu.io/",
+                "server_host": "k8s-f448"
+        },
+        {
+                "branch": "hotfix/release/v60/0.60.8-2258-ranktest",
+                "is_test_mod": "true",
+                "name": "k8s-f524",
+                "game_info": "http://gameinfo.k8s-f524.k8s.biubiubiu.io/",
+                "server_host": "k8s-f524"
+        },
+        {
+                "branch": "hotfix/release/v60/war-gameflow-match",
+                "is_test_mod": "true",
+                "name": "k8s-f485",
+                "game_info": "http://gameinfo.k8s-f485.k8s.biubiubiu.io/",
+                "server_host": "k8s-f485"
+        },
+        {
+                "branch": "global/feature/v61/match-server",
+                "is_test_mod": "true",
+                "name": "k8s-f483",
+                "game_info": "http://gameinfo.k8s-f483.k8s.biubiubiu.io/",
+                "server_host": "k8s-f483"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f439",
+                "game_info": "http://gameinfo.k8s-f439.k8s.biubiubiu.io/",
+                "server_host": "k8s-f439"
+        },
+        {
+                "branch": "feature/v60/jd-cooperation",
+                "is_test_mod": "true",
+                "name": "k8s-f482",
+                "game_info": "http://gameinfo.k8s-f482.k8s.biubiubiu.io/",
+                "server_host": "k8s-f482"
+        },
+        {
+                "branch": "hotfix/release/v60/2255/0.60.7-2257-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f443",
+                "game_info": "http://gameinfo.k8s-f443.k8s.biubiubiu.io/",
+                "server_host": "k8s-f443"
+        },
+        {
+                "branch": "hotfix/release/v60/2258/0.60.8-2258-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f808",
+                "game_info": "http://gameinfo.k8s-f808.k8s.biubiubiu.io/",
+                "server_host": "k8s-f808"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258-match",
+                "is_test_mod": "true",
+                "name": "k8s-f428",
+                "game_info": "http://gameinfo.k8s-f428.k8s.biubiubiu.io/",
+                "server_host": "k8s-f428"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258-match",
+                "is_test_mod": "true",
+                "name": "k8s-f508",
+                "game_info": "http://gameinfo.k8s-f508.k8s.biubiubiu.io/",
+                "server_host": "k8s-f508"
+        },
+        {
+                "branch": "develop",
+                "is_test_mod": "true",
+                "name": "k8s-f806",
+                "game_info": "http://gameinfo.k8s-f806.k8s.biubiubiu.io/",
+                "server_host": "k8s-f806"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258",
+                "is_test_mod": "true",
+                "name": "k8s-f454",
+                "game_info": "http://gameinfo.k8s-f454.k8s.biubiubiu.io/",
+                "server_host": "k8s-f454"
+        },
+        {
+                "branch": "hotfix/release/v60/merge-bugfix",
+                "is_test_mod": "true",
+                "name": "k8s-f512",
+                "game_info": "http://gameinfo.k8s-f512.k8s.biubiubiu.io/",
+                "server_host": "k8s-f512"
+        },
+        {
+                "branch": "hotfix/release/v60/2258/system-guidance",
+                "is_test_mod": "true",
+                "name": "k8s-f466",
+                "game_info": "http://gameinfo.k8s-f466.k8s.biubiubiu.io/",
+                "server_host": "k8s-f466"
+        },
+        {
+                "branch": "release/v60/0.60.8-2258-match",
+                "is_test_mod": "true",
+                "name": "k8s-f460",
+                "game_info": "http://gameinfo.k8s-f460.k8s.biubiubiu.io/",
+                "server_host": "k8s-f460"
+        },
+        {
+                "is_test_mod": "true",
+                "branch": "release/v60/0.60.8-2258-match",
+                "name": "k8s-f481",
+                "game_info": "http://gameinfo.k8s-f481.k8s.biubiubiu.io/",
+                "server_host": "k8s-f481"
+        }
 ]
