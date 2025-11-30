@@ -7,7 +7,7 @@
         "server_host": "https://fox925.github.io/api/"
     },
     {
-        "name": "香港高速服务器",
+        "name": "亚洲服务器",
         "branch": "develop", 
         "game_info": "https://fox925.github.io/api/",
         "is_test_mod": true,
