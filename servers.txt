@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ZYLL",
+        "branch": "develop", 
+        "game_info": "http://xcpds.tbit.xin/xcpd/",
+        "is_test_mod": true,
+        "server_host": "xcpds.tbit.xin/xcpd/"
+    },
+    {
+        "name": "ZYLL2",
+        "branch": "develop", 
+        "game_info": "http://xcpds.tbit.xin/xcpd/",
+        "is_test_mod": true,
+        "server_host": "xcpds.tbit.xin/xcpd/"
+    }
+]
