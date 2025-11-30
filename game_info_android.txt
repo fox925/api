@@ -1,7 +1,7 @@
 {
   "client_version": 7.03,
   "server_version": 1000,
-  "login_url": "http://xcpds.tbit.xin/xcpd/",
+  "login_url": "https://fox925.github.io/api/",
   "gateway_proxy": "47.116.40.85:9012",
   "ping_host": "47.116.40.85",
   "war_history": "http://47.116.40.85:9013",
